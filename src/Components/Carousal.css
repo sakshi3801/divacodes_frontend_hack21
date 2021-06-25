@@ -3,3 +3,12 @@
     height: 36.25rem;
     
   }
+
+  @media only screen and (max-width: 600px) {
+    #im{
+
+        height: 34rem;
+        
+      }
+    
+  }

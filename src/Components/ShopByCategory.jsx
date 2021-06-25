@@ -9,8 +9,12 @@ import clay from '../images/home/clay.jpg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import './ShopByCategory.css'
+<<<<<<< HEAD
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+=======
+import {Link} from 'react-router-dom'
+>>>>>>> c807aa076eee6a89bac328f4d4877a01a6837c9e
 
 const ShopByCategory = ()=>{
 
@@ -92,7 +96,7 @@ const ShopByCategory = ()=>{
         </Col>
         <Col md={3} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='section'>
-        <Card.Img variant="top" src={clay} className='cardImg' />
+        <Link to='/clay'><Card.Img variant="top" src={clay} className='cardImg' /></Link>
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Clay</Card.Title>
                 <Card.Text>
