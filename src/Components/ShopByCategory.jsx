@@ -32,7 +32,7 @@ const ShopByCategory = ()=>{
     <Button id= 'wallButton' variant="danger" size="lg" block>
 
                                         <div><Router><Link
-                                            to="/clay"
+                                            to="/wall"
                                             className="text-white py-3 border-t, border-b block"
 
                                         >
@@ -55,7 +55,7 @@ const ShopByCategory = ()=>{
     <Button id= 'wallButton' variant="danger" size="lg" block>
 
                                         <div><Router><Link
-                                            to="/clay"
+                                            to="/lamps"
                                             className="text-white py-3 border-t, border-b block"
 
                                         >
@@ -78,7 +78,7 @@ const ShopByCategory = ()=>{
     <Button id= 'wallButton' variant="danger" size="lg" block>
 
                                         <div><Router><Link
-                                            to="/clay"
+                                            to="/metal"
                                             className="text-white py-3 border-t, border-b block"
 
                                         >

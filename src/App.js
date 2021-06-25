@@ -1,11 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './Components/NavbarComp.jsx'
-import Carousal from './Components/Carousal';
-import ShopByCategory from './Components/ShopByCategory.jsx';
-import BestSellers from './Components/BestSellers';
-import NewArrivals from './Components/NewArrivals';
-<<<<<<< HEAD
+
+import Home from './pages/Home'
 
 import Clay from './pages/Clay'
 import Metal from './pages/Metal'
@@ -13,16 +10,22 @@ import Lamps from './pages/Lamps'
 import Wall from './pages/Wall'
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Switch, Route } from 'react-router-dom';
-=======
 import Footer from './Components/Footer';
->>>>>>> 2a1bda33ec394b42af93f3b731b933ebb174b8c7
+
+
 function App() {
   return (
     <div className="App">
-      <NavbarComp />
-      <ShopByCategory />
+      
+     
       <Router>
+        <NavbarComp />
        
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
         
         <Switch>
           <Route path="/wall">
@@ -46,22 +49,21 @@ function App() {
         </Switch>
         
        
-
+        <Footer />
         
       
       </Router>
-      
+     
 
     
-    <Carousal />
     
-    <BestSellers />
-    <NewArrivals />
-<<<<<<< HEAD
     
-=======
-    <Footer />
->>>>>>> 2a1bda33ec394b42af93f3b731b933ebb174b8c7
+    
+
+    
+
+    
+
     </div>
   );
 }

@@ -10,7 +10,6 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { ShoppingCart} from '@material-ui/icons';
 import './NewArrivals.css'
-
 const NewArrivals = ()=>{
 
     return(
