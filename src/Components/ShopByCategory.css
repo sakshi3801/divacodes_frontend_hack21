@@ -1,0 +1,30 @@
+#cat{
+
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: #232323
+  }
+
+#card{
+
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 35px;
+  }
+  
+  #section{
+  
+    margin-top: 8%;
+    margin-left: 8%;
+    
+  }
+  
+  #section:hover{
+  
+    cursor: pointer;
+    -webkit-box-shadow: -1px 9px 40px -12px gray;
+  }
+  
