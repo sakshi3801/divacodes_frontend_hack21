@@ -1,0 +1,38 @@
+#drop{
+
+    color: black;
+    font-size: 22px;
+    float: right;
+    background-color: #D5DBB3;
+    border-radius: 25px;
+    width: 10%;
+    position: relative;
+    bottom: 90px;
+    margin-right: 30px;
+}
+
+#category{
+
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 40px;
+        text-shadow: 2px 2px gray;
+        
+        margin: auto;
+        margin-left: 30px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        color: #222831;
+}
+
+#buy{
+
+    text-decoration: none;
+    color: white;
+}
+
+#cardRow{
+
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
