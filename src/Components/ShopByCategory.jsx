@@ -9,6 +9,8 @@ import clay from '../images/home/clay.jpg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import './ShopByCategory.css'
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const ShopByCategory = ()=>{
 
@@ -27,7 +29,18 @@ const ShopByCategory = ()=>{
                 <Card.Text>
       Wall decor items including tapestry, dream catchers, etc.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button>
+    <Button id= 'wallButton' variant="danger" size="lg" block>
+
+                                        <div><Router><Link
+                                            to="/clay"
+                                            className="text-white py-3 border-t, border-b block"
+
+                                        >
+                                            Explore
+                                        </Link></Router>
+
+                                        </div>
+    </Button>
             </Card.Body>
             </Card>
         </Col>
@@ -39,7 +52,18 @@ const ShopByCategory = ()=>{
                 <Card.Text>
                 Wide variety of lamps and lanterns in variant ranges.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button>
+    <Button id= 'wallButton' variant="danger" size="lg" block>
+
+                                        <div><Router><Link
+                                            to="/clay"
+                                            className="text-white py-3 border-t, border-b block"
+
+                                        >
+                                            Explore
+                                        </Link></Router>
+
+                                        </div>
+    </Button>
             </Card.Body>
             </Card>
         </Col>
@@ -51,7 +75,18 @@ const ShopByCategory = ()=>{
                 <Card.Text>
                 Metal items including jugs, cutllery, figurines, etc.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button>
+    <Button id= 'wallButton' variant="danger" size="lg" block>
+
+                                        <div><Router><Link
+                                            to="/clay"
+                                            className="text-white py-3 border-t, border-b block"
+
+                                        >
+                                            Explore
+                                        </Link></Router>
+
+                                        </div>
+    </Button>
             </Card.Body>
             </Card>
         </Col>
@@ -63,7 +98,23 @@ const ShopByCategory = ()=>{
                 <Card.Text>
       Clay items including flower vases, diyas, figurines, etc.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button>
+    <Button id= 'wallButton' variant="danger" size="lg" block>
+                        
+                                          
+                                        <div><Router><Link
+                                            to="/clay"
+                                            className="text-white py-3 border-t, border-b block"
+
+                                        >
+                                            Explore
+                                        </Link></Router>
+                                                    
+                                        </div>
+
+
+                                        
+
+    </Button>
             </Card.Body>
             </Card>
         </Col>
