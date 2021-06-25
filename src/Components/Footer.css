@@ -1,0 +1,83 @@
+#footer{
+
+    height: 243px;
+    background-color: #232323;
+    margin-top: 70px;
+    color: white;
+  }
+  
+  #footerTop{
+  
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding: 30px;
+  }
+
+  #address{
+
+    float: left;
+    padding-left: 20px;
+  }
+  
+  #contact{
+  
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+#icons{
+
+    color: crimson;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-shadow: white;
+    padding-left: 15px;
+  }
+
+  #icons:hover{
+
+    cursor: pointer;
+    color: #D5DBB3;
+  }
+  
+  .media{
+  
+    padding-left: 10px;
+    font-size: 30px;
+  }
+  
+  #head{
+  
+    color: crimson;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+  }
+  
+  #mail{
+  
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  #copy{
+  
+    font-size: 12px;
+    padding-top: 15px;
+  }
+
+  #about{
+    
+    width: 60%;
+  }
+
+  #socialMedia{
+
+    align-items: center;
+    position: relative;
+   right: 3px;
+  }

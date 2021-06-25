@@ -14,7 +14,7 @@ import './BestSellers.css'
 const BestSellers = ()=>{
 
     return(
-        <>
+        <div id='shop'>
         <h2 id='cat'>Best Sellers</h2>
 <div id='card'>
         <CardDeck id='cardDeck'>
@@ -29,7 +29,7 @@ const BestSellers = ()=>{
     </Card.Text>
     <div id='button' className='mr-auto'>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
     </div>
             </Card.Body>
             </Card>
@@ -43,7 +43,7 @@ const BestSellers = ()=>{
       <span id='price1'>Rs 1657.00</span> <h5 id = 'price2'>Rs. 1450.00</h5>
     </Card.Text>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
@@ -56,7 +56,7 @@ const BestSellers = ()=>{
       <span id='price1'>Rs 2615.00</span> <h5 id = 'price2'>Rs. 2399.00</h5>
     </Card.Text>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
@@ -70,14 +70,14 @@ const BestSellers = ()=>{
       <span id='price1'>Rs 1222.00</span> <h5 id = 'price2'>Rs. 1100.00</h5>
     </Card.Text>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
         </Row>
         </CardDeck>
         </div>
-        </>
+        </div>
 
     )
 }

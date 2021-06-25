@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 const ShopByCategory = ()=>{
 
     return(
-        <>
+        <div id = 'shop'>
         <h2 id='cat'>Shop By Category</h2>
         <div id='card'>
         <CardDeck id='cardDeck'>
@@ -122,7 +122,7 @@ const ShopByCategory = ()=>{
         </Row>
         </CardDeck>
         </div>
-        </>
+        </div>
 
     )
 }
