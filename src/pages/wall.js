@@ -9,14 +9,14 @@ function Wall() {
     return (
         <div>
             <div>
-                <h1 className="text-2xl text-center">Clay-Close to Mother Earth</h1>
+                <h1 className="text-2xl text-center">Wall-The strong frameworks</h1>
             </div>
             <div>
                 <CardDeck id='cardDeck'>
                     <Row id='cardRow' >
                         <Col md={4} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://decorifylife.com/pub/media/catalog/product/cache/254eb71a796caf5d625aa40687285723/r/s/rsmb96_image-2_.jpg" className='cardImg' />
+                                <Card.Img variant="top" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT9iQquf43RLtO5mN_y5l1hbLfuuV8aV-Z_31hHfNEKTpG4yxYNSUZFyZXgZMTzVD31gZmoHtN9zGJ9ar6Jrcbf9uTtESFD-PCY505yLg-5jCJEn6xe_Y6tzw&usqp=CAE" className='cardImg' />
 
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
@@ -24,10 +24,10 @@ function Wall() {
 
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://decorifylife.com/index.php/" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.indianshelf.in/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://decorifylife.com/index.php/terracotta-earthenware-indian-traditional-dancing-figure-tea-kettele" target="_blank">Buy Now</a>
+                                            <a href="https://www.indianshelf.in/brass-round-dhokra-wall-art-hanging/?gclid=Cj0KCQjw2tCGBhCLARIsABJGmZ674ZmwC73_PIH8rvX4hun-MIVMTBW0Z0uzLRfA-UV4suuD18HgcWwaAs_nEALw_wcB" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
 
@@ -37,17 +37,17 @@ function Wall() {
                         <Col md={4} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
                                 <Card.Img variant="top"
-                                    src="https://vincraft.in/wp-content/uploads/2019/06/VC854.jpg.webp"
+                                    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmn9esSSLY5r1-ltPmIrfI2As4shtltcflqv8-YYlGf7hB8E71DbHH-ayD0LsPkECsqlNVD1I4wfRe2RoWtAzBU4vh_iudImG-hz3nX4E&usqp=CAE"
                                     className='cardImg' />
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://vincraft.in/" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.jaipurfabric.com/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://vincraft.in/home-decor/indian-handicrafts/handicraft-indian-cow-incense/ " target="_blank">Buy Now</a>
+                                            <a href="https://www.jaipurfabric.com/products/indian-embroidered-wall-decorations-decorative-hanging-wall-hanged-with-precious-stones?gclid=Cj0KCQjw2tCGBhCLARIsABJGmZ5JpcuO91M_oEok3f68m-YSFHano24fc4VYKtMFJsLSB1ZVH7_a3CUaAk6REALw_wcB" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
@@ -55,16 +55,16 @@ function Wall() {
                         </Col>
                         <Col md={3} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmFVvz-63EqLUYZzE51Ah3y8UsPjxOG6kituMA2Y_43E5xjI3PRW3OMol260tg_eoj-INoPuiLzNqs6LDt9zvbRaaJn7dpZmo32ktihd8V-SvfReR-731Qng&usqp=CAE" className='cardImg' />
+                                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSV-74sVd-eevZfLPQ5t4m8qBhcCjzBPPeUQ7YZ34wa9PY5ZBJQoGN6bsj3Xdcl8d7mVHZR74y6YodRqzrZ4DYUUfBIC3SYTw6UucMhlOBzgScqqU35DYX7lQ&usqp=CAE" className='cardImg' />
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.claymango.com/index.php" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.craftsnchisel.in/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://www.claymango.com/productdisplay.php?viewone=h1415" target="_blank">Buy Now</a>
+                                            <a href="https://www.craftsnchisel.in/products/lord-krishna-kerela-mural?variant=34503308935327&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
@@ -74,15 +74,15 @@ function Wall() {
                     <Row id='cardRow' >
                         <Col md={4} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcShikNr0VXezRvfXZC6rVYmBIb6mRxY-WfgdCx_ueRu6NGIDHNI1BlaAsOlQbfzVk5TlEVLYt8D5hN0FMzkenfpq-T7Iexo1g&usqp=CAE" className='cardImg' />
+                                <Card.Img variant="top" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqnG-FOxCM80UtkuUpKyYsW94vW8doFW_oXngFzG8Mhq_cgaJVysMbPw6ToykIzFwkxVkR-XHhGQqrOyzAGm3NT-lX6mSuCg&usqp=CAE" className='cardImg' />
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
                                     <Card.Text>
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://panchvaati.com/" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://indianfolkart.org/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://panchvaati.com/deals-of-the-day/beautifully-terracotta-clay-crafted-durga-statue/" target="_blank">Buy Now</a>
+                                            <a href="https://indianfolkart.org/product/chandua-art-wall-decoration-01-indian-handicraft-3-x-3-ft-copy-11/" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
@@ -90,15 +90,15 @@ function Wall() {
                         </Col>
                         <Col md={4} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRl8HP-7qA6ApuNxG2Z5a1vAdzy-0zN0xZ54OdFeyVnzM3bnt8MweAOFNzZjg9eL-q3gvbez4XUTKsYpbtFOF6Oj5zPhLut2Q&usqp=CAE" className='cardImg' />
+                                <Card.Img variant="top" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS95wstRvU3AW03UTdnLrb65mMSAEiFnjuZCtTuA8NEbKyd0tIdYEf5pgSyxdITIzLy4iIxQ3pWmOucKc1q43lzMjxg39n46Jy3aBSzx5Y&usqp=CAE" className='cardImg' />
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://pinkwinkgirl.com/" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.mirraw.com/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
-                                        <div><a href="https://pinkwinkgirl.com/product/traditional-indian-terracotta-art-wall-hanging-for-home-5/" target=" _blank">Buy Now</a>
+                                        <div><a href="https://www.mirraw.com/designers/handicrafts-paradise/designs/tribal-rajasthani-musical-wall-decor-showpiece-in-metal-set-of-3-pc-8-75-x-14-inch-wall-hanging?country_code=IN" target=" _blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
@@ -106,16 +106,16 @@ function Wall() {
                         </Col>
                         <Col md={4} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTwCaF0Gf73UwhyBuboU3SXYV1r5zxjM7LIOew5jZESLx9-wZPUbfUo2sAjw7Z6yjw5lhvbUfs_n0hki4qd8dJS8yiYGN4jSpyx4EvAjBVVSZG-mAIw5tc2wxs&usqp=CAE" className='cardImg' />
+                                <Card.Img variant="top" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTGmm5CA8R5xQ79fswTi0puf_uyKHBd1Bjcw7ynzpMWwblzBB4ykRsFlEL-0otQP3q6R9M5QBOm8ZcD4TgTWqE7rWpyXt9z7fWIRV0kmv5BISVjpZ9_oYq2&usqp=CAE" className='cardImg' />
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.megastores.com/" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.indichues.com/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://www.megastores.com/seller/68999cfc-ebcf-41f1-b2f5-821c7b80a464/product/41235" target="_blank">Buy Now</a>
+                                            <a href="https://www.indichues.com/products/indichues-large-ganesha-wrought-iron-wall-art?currency=INR&variant=34695104266403&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&utm_source=adyogi&utm_medium=google-ssc&utm_campaign=MYST_6103_adyogi_SmartShopping_&gclid=Cj0KCQjw2tCGBhCLARIsABJGmZ4myaWyLIUu0t28SkspJtL-zs5xZxxCN6FASmkRjcnbP-m0gvQFF4caAtRlEALw_wcB" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
@@ -125,7 +125,7 @@ function Wall() {
                     <Row id='cardRow' >
                         <Col md={4} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSRUkJ7PHo2lQjpurzsnAXpLUD5-c0e3B8IbodRjZ-sjPxv0qZDNtVI-sWeZR8XUMxbBaF3TIsYoG8uKh5oT9igv81MZxRfIiuCzV6ZROk3Dtm_VYNtNSasHg&usqp=CAE" className='cardImg' />
+                                <Card.Img variant="top" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRRyrnJF0zn8HJHZ9KRtDS3zopwsrjGt3IXLEgt-66_JteQhn0YzvWlgzVVlnYMixFqHS6EBUHFxeWnOUzu8z0uwklDIFqioKN-72w-XVVC0B3lva5NOll0Eg&usqp=CAE" className='cardImg' />
 
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
@@ -133,10 +133,10 @@ function Wall() {
 
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.claymango.com/index.php" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.fabindia.com/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://www.claymango.com/productdisplay.php?viewone=h435" target="_blank">Buy Now</a>
+                                            <a href="https://www.fabindia.com/vriksh-warli-art-wall-plate-large-10665149?utm_source=Google&utm_medium=cpc&utm_campaignid=1630667914&utm_adgroupid=61347548319&utm_keyword=&utm_device=c&utm_placement=&utm_adid={adid}&gclid=Cj0KCQjw2tCGBhCLARIsABJGmZ5ODub5-ELny1-NZZQhwUm9MlttzWVySdS0mp_qtOgwaQEm8V32z4QaAreREALw_wcB" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
@@ -144,16 +144,16 @@ function Wall() {
                         </Col>
                         <Col md={4} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/2105/0147/products/20201225_100831A_1024x1024@2x.jpg?v=1610788130" className='cardImg' />
+                                <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0030/9759/1872/products/EL-002-142_A_110x110@2x.jpg?v=1581072461" className='cardImg' />
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://turquoisethestore.com/" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://exclusivelane.com/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://turquoisethestore.com/collections/pottery/products/terracotta-teapot-stone-age-mugs" target="_blank">Buy Now</a>
+                                            <a href="https://exclusivelane.com/products/flapping-birdies-handmade-hand-painted-garden-decorative-wall-hanging-in-terracotta-el-002-142" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
@@ -161,16 +161,16 @@ function Wall() {
                         </Col>
                         <Col md={3} className='cardCol'>
                             <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSAAmiZYV7R5p5y6nlxgLhOB0abs8ZIEfKj4kZzFagKfCHMqBL-YPIJDl2ds4KmB83Q-hi4XRHkowYWecnDMbEK8__nVqWE-A&usqp=CAE" className='cardImg' />
+                                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQjQTJcsyGB3lu0vPqBNSXSr0EoRIwqVcpTIZcPvBJ43jOuE-E2nW87j6cDBO7M9EJwOb7ERHPVST8eELv9Q1D3w7PP7HcsS4tVJay3tC5d5qWwSLx8iMBngQ&usqp=CAE" className='cardImg' />
                                 <Card.Body className='cardBody'>
                                     <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://afday.com/" target="_blank">Go to Website</a></div></Button>
+                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://wallmantra.com/" target="_blank">Go to Website</a></div></Button>
                                     <Button id='button 2' variant="outline-danger" block>
                                         <div>
-                                            <a href="https://afday.com/amalfiee-terracotta-handmade-buddha-sitting-sculpture.html" target="_blank">Buy Now</a>
+                                            <a href="https://wallmantra.com/products/modern-warli-painting-wall-hanging-set-of-3-pieces?variant=28980077559901&utm_source=google&utm_medium=cpc&utm_campaign=CedCommerceGoogleShopping" target="_blank">Buy Now</a>
                                         </div>
                                     </Button>
                                 </Card.Body>
