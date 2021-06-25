@@ -9,12 +9,8 @@ import clay from '../images/home/clay.jpg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import './ShopByCategory.css'
-<<<<<<< HEAD
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-=======
-import {Link} from 'react-router-dom'
->>>>>>> c807aa076eee6a89bac328f4d4877a01a6837c9e
 
 const ShopByCategory = ()=>{
 

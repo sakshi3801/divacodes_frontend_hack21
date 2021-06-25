@@ -21,6 +21,8 @@ function Home(){
             </Link></Router>
                
             </div>
+            
+            
             <Carousal />
             <ShopByCategory />
             <BestSellers />
