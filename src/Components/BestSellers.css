@@ -36,4 +36,9 @@
   
     cursor: pointer;
   }
+
+  #best{
+    background-image: linear-gradient(180deg, white, hsl(59, 79%, 62%));
+
+  }
   

@@ -5,6 +5,7 @@ import Carousal from './Components/Carousal';
 import ShopByCategory from './Components/ShopByCategory.jsx';
 import BestSellers from './Components/BestSellers';
 import NewArrivals from './Components/NewArrivals';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
     <ShopByCategory />
     <BestSellers />
     <NewArrivals />
+    <Footer />
     </div>
   );
 }

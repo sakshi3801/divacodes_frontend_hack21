@@ -9,12 +9,12 @@ import new4 from '../images/home/new4.jpg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { ShoppingCart} from '@material-ui/icons';
-
+import './NewArrivals.css'
 
 const NewArrivals = ()=>{
 
     return(
-        <>
+        <div id='shop'>
          <h2 id='cat'>New Arrivals</h2>
 <div id='card'>
         <CardDeck id='cardDeck'>
@@ -28,7 +28,7 @@ const NewArrivals = ()=>{
       <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
     </Card.Text>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
@@ -41,7 +41,7 @@ const NewArrivals = ()=>{
       <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
     </Card.Text>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
@@ -54,7 +54,7 @@ const NewArrivals = ()=>{
       <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
     </Card.Text>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
@@ -68,14 +68,14 @@ const NewArrivals = ()=>{
       <span id='price1'>Rs 1500.00</span> <h5 id = 'price2'>Rs. 1111.00</h5>
     </Card.Text>
     <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
-    <Button id= 'button2' variant="outline-danger">Buy Now</Button>
+    <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
         </Row>
         </CardDeck>
         </div>
-        </>
+        </div>
 
     )
 }

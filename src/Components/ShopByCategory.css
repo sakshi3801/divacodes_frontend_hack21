@@ -12,14 +12,22 @@
 
     margin-right: 20px;
     margin-left: 20px;
-    border-radius: 35px;
-  }
+    border-radius: 30px;
+    
+}
+
+#shop{
+
+    background-image:  linear-gradient(white, hsl(59, 79%, 62%), white);
+
+
+}
   
   #section{
   
     margin-top: 8%;
     margin-left: 8%;
-    
+    z-index: 1;
   }
   
   #section:hover{
