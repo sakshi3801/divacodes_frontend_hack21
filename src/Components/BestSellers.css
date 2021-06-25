@@ -1,0 +1,39 @@
+#price1{
+    color: gray;
+    text-decoration: line-through
+    
+}
+
+#price2{
+
+    color: brown;
+    display: inline;
+}
+
+#cardText{
+
+    text-align: center;
+}
+
+#button1{
+
+    float: left;
+}
+
+#button2{
+
+    float: right;
+}
+
+#sec{
+  
+    margin-top: 8%;
+    margin-left: 8%;
+    
+  }
+  
+  #sec:hover{
+  
+    cursor: pointer;
+  }
+  
