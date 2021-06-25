@@ -23,57 +23,6 @@
     font-size: 1.8rem;
   }
   
-  
-  #btn{
-  
-    border-radius: 25px;
-    font-size: 19px;
-  }
-  
-  
-  .desc{
-    background-color: greenyellow;
-    height: 100px;
-    width: 40%;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-  }
-  
-  /* .desc1{
-    background-color: gray;
-    height: 200px;
-    width: 40%;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-  } */
-  /* .card{
-  
-    display: flex;
-  } */
-  
-  
-  
-  @media(max-width: 998px)
-  {
-    html{
-      font-size: 90%;
-    }
-  }
-  
-  .hack1{
-  
-    background-color: #FFE227;
-  }
-  
-  .hack2{
-  
-    background-color: #D5DBB3;
-  }
-  
   #navbar{
   
     background-color: #232323
@@ -116,7 +65,6 @@
   .sidebar__search {
     display: flex;
     align-items: center;
-    /* background-color: #f6f6f6; */
     height: 39px;
     padding: 10px;
   }
@@ -134,7 +82,7 @@
   .sidebar__searchContainer > .MuiSvgIcon-root{
   
     border: none;
-    color: gray;
+    color: rgb(184, 176, 176);
     padding: 10px;
     font-size: 2.5rem;
   }
@@ -150,139 +98,5 @@
     margin-left: 15px;
   }
   
-  #im{
-  
-    height: 36.25rem;
-    
-  }
-  
-  #cat{
-  
-    align-items: center;
-    margin: auto;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    color: #232323
-  }
-  
-  #card{
-  
-    
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 35px;
-  }
-  
-  #section{
-  
-    margin-top: 8%;
-    margin-left: 8%;
-    
-  }
-  
-  #section:hover{
-  
-    cursor: pointer;
-    -webkit-box-shadow: -1px 9px 40px -12px gray;
-  }
-  
-  #best{
-    align-items: center;
-    margin: auto;
-    text-align: center;
-    z-index: -1;
-  }
-  
-  hr {
-    border: 0;
-    height: 2px;
-    
-    background-image: linear-gradient(to top, white, #FFE227,  white);
-  }
-  
-  #carousal{
-  
-    margin-bottom: 20px;
-  }
-  
-  #but{
-  
-    padding: 7px;
-  }
-  
-  #footer{
-  
-    height: 211px;
-    background-color: #232323;
-    margin-top: 70px;
-    color: white;
-  }
-  
-  #footerTop{
-  
-    text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-    padding: 30px;
-  }
   
   
-  #address{
-  
-    float: left;
-    padding-left: 20px;
-  }
-  
-  #contact{
-  
-    float: right;
-    padding-right: 20px;
-    padding-top: 20px;
-  }
-  
-  #wallButton1{
-  
-    float: left;
-  }
-  
-  #wallButton2{
-  
-    float: right;
-  }
-  
-  #icons{
-  
-    color: crimson;
-    font-size: 30px;
-    padding-bottom: 10px;
-    text-shadow: white;
-  }
-  
-  .media{
-  
-    padding-left: 10px;
-    font-size: 30px;
-  }
-  
-  #head{
-  
-    color: crimson;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    
-  }
-  
-  #mail{
-  
-    color: white;
-    text-decoration: none;
-  
-  }
-  
-  #copy{
-  
-    font-size: 12px;
-    padding-top: 15px;
-  }

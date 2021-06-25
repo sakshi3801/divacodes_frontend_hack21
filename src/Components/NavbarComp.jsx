@@ -3,11 +3,12 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { SearchOutlined, ShoppingCart} from '@material-ui/icons'
 import './NavbarComp.css'
+
 const NavbarComp = ()=>{
 
     return(
         <>
-            <Navbar id='navbar' collapseOnSelect expand="lg" bg="blue" variant="dark">
+    <Navbar id='navbar' collapseOnSelect expand="lg" variant="dark">
   <Navbar.Brand href="#home" id='brand'><span id='brandF'>Craft </span><span id='brandL'>Moon</span></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
