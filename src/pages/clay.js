@@ -1,5 +1,6 @@
 import React from 'react'
-import 
+import Card from 'react-bootstrap/Card'
+import { CardGroup } from 'react-bootstrap';
 
 function clay(){
     return(
