@@ -9,19 +9,14 @@ import clay from '../images/home/clay.jpg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import './ShopByCategory.css'
-<<<<<<< HEAD
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-=======
 import {Link} from 'react-router-dom'
->>>>>>> c807aa076eee6a89bac328f4d4877a01a6837c9e
 
 const ShopByCategory = ()=>{
 
     return(
-        <div id = 'shop'>
+        <>
         <h2 id='cat'>Shop By Category</h2>
-        <div id='card'>
+<div id='card'>
         <CardDeck id='cardDeck'>
         <Row id='cardRow' >
         <Col md={3} className='cardCol'>
@@ -31,20 +26,10 @@ const ShopByCategory = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Wall Decor</Card.Title>
                 <Card.Text>
-      Wall decor items including tapestry, dream catchers, etc.
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>
-
-                                        <div><Router><Link
-                                            to="/wall"
-                                            className="text-white py-3 border-t, border-b block"
-
-                                        >
-                                            Explore
-                                        </Link></Router>
-
-                                        </div>
-    </Button>
+    <Link id='routerLink' to='/Wall'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>
             </Card>
         </Col>
@@ -52,22 +37,12 @@ const ShopByCategory = ()=>{
         <Card className="focus mt-2 mb-2" id='section'>
         <Card.Img variant="top" src={lamp} className='cardImg' />
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Lamp and Lanterns</Card.Title>
+                <Card.Title className="title text-center  card-title">Lamp and lanterns</Card.Title>
                 <Card.Text>
-                Wide variety of lamps and lanterns in variant ranges.
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>
-
-                                        <div><Router><Link
-                                            to="/lamps"
-                                            className="text-white py-3 border-t, border-b block"
-
-                                        >
-                                            Explore
-                                        </Link></Router>
-
-                                        </div>
-    </Button>
+    <Link id='routerLink' to='/Lamps'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>
             </Card>
         </Col>
@@ -77,48 +52,23 @@ const ShopByCategory = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Metal</Card.Title>
                 <Card.Text>
-                Metal items including jugs, cutllery, figurines, etc.
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>
-
-                                        <div><Router><Link
-                                            to="/metal"
-                                            className="text-white py-3 border-t, border-b block"
-
-                                        >
-                                            Explore
-                                        </Link></Router>
-
-                                        </div>
-    </Button>
+    <Link id='routerLink' to='/Metal'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>
             </Card>
         </Col>
         <Col md={3} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='section'>
-        <Link to='/clay'><Card.Img variant="top" src={clay} className='cardImg' /></Link>
+            <Card.Img variant="top" src={clay} className='cardImg' />
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Clay</Card.Title>
                 <Card.Text>
-      Clay items including flower vases, diyas, figurines, etc.
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
     </Card.Text>
-    <Button id= 'wallButton' variant="danger" size="lg" block>
-                        
-                                          
-                                        <div><Router><Link
-                                            to="/clay"
-                                            className="text-white py-3 border-t, border-b block"
-
-                                        >
-                                            Explore
-                                        </Link></Router>
-                                                    
-                                        </div>
-
-
-                                        
-
-    </Button>
+    <Link id='routerLink' to='/Clay'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>
             </Card>
         </Col>
@@ -126,8 +76,7 @@ const ShopByCategory = ()=>{
         </Row>
         </CardDeck>
         </div>
-        </div>
-
+        </>
     )
 }
 

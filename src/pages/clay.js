@@ -4,11 +4,14 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import NavbarComp from '../Components/NavbarComp'
+import Footer from '../Components/Footer'
 
 function Clay(){
     return(
        <div>
            <div>
+           <NavbarComp />
                <h1 className="text-2xl text-center p-3">Clay-Close to Mother Earth</h1>
            </div>
             <div>
@@ -179,6 +182,8 @@ function Clay(){
                     </Row>
                 </CardDeck>
             </div>
+
+            <Footer />
        </div>
         
 

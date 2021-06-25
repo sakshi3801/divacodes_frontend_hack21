@@ -1,7 +1,7 @@
 #cat{
 
     letter-spacing: 2px;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 40px;
     text-shadow: 2px 2px gray;
     align-items: center;
@@ -40,3 +40,7 @@
     -webkit-box-shadow: -1px 9px 40px -12px gray;
   }
   
+  #routerLink{
+
+    text-decoration: none;
+  }
