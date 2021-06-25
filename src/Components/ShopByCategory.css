@@ -1,11 +1,15 @@
 #cat{
 
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 2px 2px gray;
     align-items: center;
     margin: auto;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 40px;
-    color: #232323
+    color: #222831;
   }
 
 #card{
@@ -19,7 +23,7 @@
 #shop{
 
     background-image:  linear-gradient(white, hsl(59, 79%, 62%), white);
-
+    font-family: 'Roboto', sans-serif;
 
 }
   

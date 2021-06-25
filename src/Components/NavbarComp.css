@@ -6,6 +6,9 @@
   #navItem:hover{
   
     color: gray;
+    transition-delay: 100ms;
+    transition-duration: 200ms;
+    transition: ease-in;
   }
   
   #middle{
@@ -98,5 +101,39 @@
     margin-left: 15px;
   }
   
+  @media only screen and (max-width: 600px) {
+    
+    .sidebar__searchContainer{
+      
+      position: relative;
+      left: 4.8rem;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      width: 65%;
+      height: 35px;
+      border-radius: 25px;
+    }
+
+    #brand{
+  
+      color: black;
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.4rem;
+    }
+
+    #navItem{
+      font-size: 1rem;
+      color: #FFE227;
+    }
+
+    #cart{
+  
+      color: #D5DBB3;
+      font-size: 22px;
+    }
+
+  }
+
   
   
