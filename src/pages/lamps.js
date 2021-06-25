@@ -4,10 +4,12 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-
+import NavbarComp from '../Components/NavbarComp'
+import Footer from '../Components/Footer'
 function Lamps() {
     return (
         <div>
+            <NavbarComp />
             <div>
                 <h1 className="text-2xl text-center p-3">Lamps-Light your Homes and Life</h1>
             </div>
@@ -179,6 +181,7 @@ function Lamps() {
                     </Row>
                 </CardDeck>
             </div>
+            <Footer />
         </div>
 
 
