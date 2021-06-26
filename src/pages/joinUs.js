@@ -7,7 +7,7 @@ function joinUs(){
         <>
         <div>
                 <NavbarComp />
-                <div style={{ backgroundImage: `url(${joinus})` }} className="p-3 m-4">
+                <div style={{  backgroundImage:  "linear-gradient(#ffff5c,#ffffff,#ffff5c)" }} className="p-3 m-4">
                     <h1 className="text-center p-3">Join Us</h1>
                     <p style={{ fontSize: "1.4em" }}> If you are a creator of the beautiful indian handicrafts, please connect with us and sell your products directly to your
                         customers globally.
