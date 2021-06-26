@@ -31,6 +31,17 @@
     color: white;
 }
 
+#buy1{
+
+    text-decoration: none;
+    color: gray;
+}
+
+#buy1:hover{
+
+    color: white;
+}
+
 #cardRow{
 
     padding-top: 30px;
