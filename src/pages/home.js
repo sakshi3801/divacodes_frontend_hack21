@@ -10,7 +10,7 @@ import { Route } from 'react-router-dom'
 import clay from './clay'
 import lamps from './lamps'
 import metal from './metal'
-import wall from './Wall'
+import wall from './wall'
 
 function Home() {
     return (

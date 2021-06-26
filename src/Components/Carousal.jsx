@@ -48,7 +48,7 @@ const Carousal = ()=>{
                 src={carousal3}
                 alt="Second slide"
               />
-              <div style={{ color: "#000000" }} class="text-block color: rgb(26, 25, 25);">
+              <div style={{ color: "#ffff00" }} class="text-block color: rgb(26, 25, 25);">
                 <h1>Welcome to Craft Moon</h1>
                 <p>A selected collection of hancrafted home/office decor</p>
               </div>
