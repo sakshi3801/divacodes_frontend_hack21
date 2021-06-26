@@ -6,188 +6,142 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import NavbarComp from '../Components/NavbarComp'
 import Footer from '../Components/Footer'
+import { ShoppingCart} from '@material-ui/icons';
+import lamp1 from '../images/product/shopping.webp'
+import clay2 from '../images/product/clay2.jpg'
+import clay3 from '../images/product/clay3.jpeg'
+import clay4 from '../images/product/clay4.jpg'
+import clay5 from '../images/product/clay5.jpeg'
+import lamp6 from '../images/product/lamp8.jpg'
+import lamp7 from '../images/product/lamp9.jpg'
+import lamp8 from '../images/product/lamp10.jpg'
+import './product.css'
 
-function Clay(){
-    return(
-       <div>
-           <div>
-           <NavbarComp />
-               <h1 className="text-2xl text-center p-3">Clay-Close to Mother Earth</h1>
-           </div>
-            <div>
-                <CardDeck id='cardDeck'>
-                    <Row id='cardRow' >
-                        <Col md={4} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://decorifylife.com/pub/media/catalog/product/cache/254eb71a796caf5d625aa40687285723/r/s/rsmb96_image-2_.jpg" className='cardImg' />
-
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
-
-
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://decorifylife.com/index.php/" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://decorifylife.com/index.php/terracotta-earthenware-indian-traditional-dancing-figure-tea-kettele" target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col md={4} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top"
-                                    src="https://vincraft.in/wp-content/uploads/2019/06/VC854.jpg.webp"
-                                    className='cardImg' />
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
-
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://vincraft.in/" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://vincraft.in/home-decor/indian-handicrafts/handicraft-indian-cow-incense/ " target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col md={3} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmFVvz-63EqLUYZzE51Ah3y8UsPjxOG6kituMA2Y_43E5xjI3PRW3OMol260tg_eoj-INoPuiLzNqs6LDt9zvbRaaJn7dpZmo32ktihd8V-SvfReR-731Qng&usqp=CAE" className='cardImg' />
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
-
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.claymango.com/index.php" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://www.claymango.com/productdisplay.php?viewone=h1415" target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                    <Row id='cardRow' >
-                        <Col md={4} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcShikNr0VXezRvfXZC6rVYmBIb6mRxY-WfgdCx_ueRu6NGIDHNI1BlaAsOlQbfzVk5TlEVLYt8D5hN0FMzkenfpq-T7Iexo1g&usqp=CAE" className='cardImg' />
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://panchvaati.com/" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://panchvaati.com/deals-of-the-day/beautifully-terracotta-clay-crafted-durga-statue/" target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col md={4} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRl8HP-7qA6ApuNxG2Z5a1vAdzy-0zN0xZ54OdFeyVnzM3bnt8MweAOFNzZjg9eL-q3gvbez4XUTKsYpbtFOF6Oj5zPhLut2Q&usqp=CAE" className='cardImg' />
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
-
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://pinkwinkgirl.com/" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div><a href="https://pinkwinkgirl.com/product/traditional-indian-terracotta-art-wall-hanging-for-home-5/" target=" _blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col md={4} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTwCaF0Gf73UwhyBuboU3SXYV1r5zxjM7LIOew5jZESLx9-wZPUbfUo2sAjw7Z6yjw5lhvbUfs_n0hki4qd8dJS8yiYGN4jSpyx4EvAjBVVSZG-mAIw5tc2wxs&usqp=CAE" className='cardImg' />
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
-
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.megastores.com/" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://www.megastores.com/seller/68999cfc-ebcf-41f1-b2f5-821c7b80a464/product/41235" target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                    <Row id='cardRow' >
-                        <Col md={4} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSRUkJ7PHo2lQjpurzsnAXpLUD5-c0e3B8IbodRjZ-sjPxv0qZDNtVI-sWeZR8XUMxbBaF3TIsYoG8uKh5oT9igv81MZxRfIiuCzV6ZROk3Dtm_VYNtNSasHg&usqp=CAE" className='cardImg' />
-
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
+function Lamps() {
+    return (
+        <>
+        <NavbarComp />
+        <div id='shop'>
+        <h2 id='category'>Clay-Close to Mother Earth</h2>
+<div id='card'>
+       <CardDeck id='cardDeck'>
+       <Row id='cardRow' >
+       <Col md={3} className='cardCol'>
+           <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src='https://decorifylife.com/pub/media/catalog/product/cache/254eb71a796caf5d625aa40687285723/r/s/rsmb96_image-2_.jpg' className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Brass Antique Finish Village Bullock Cart showpiece</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://decorifylife.com/index.php/'>Visit Website</a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://decorifylife.com/index.php/terracotta-earthenware-indian-traditional-dancing-figure-tea-kettele'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
+       <Col md={3} className='cardCol'>
+       <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src={clay5} className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Black Wire Mesh Pendant Light, Ceiling Hanging Lamp</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://www.flipkart.com/'>Visit Website</a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.flipkart.com/khushi-lord-buddha-embosed-palm-buddha-hand-black-gold-decorative-showpiece-10-cm/p/itmb3b3cdd228291'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
+       <Col md={3} className='cardCol'>
+       <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src={clay3} className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Set of Three Loving Couple in Rain Texture UV Art Painting</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://in.availeverything.com/'>Visit Website</a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://in.availeverything.com/product/Terracotta-Hand-painted-Earthen-Warli-Vases-for-Home-Dcor-Set-of-3--Vases-Set-LuJLM'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
 
 
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://www.claymango.com/index.php" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://www.claymango.com/productdisplay.php?viewone=h435" target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col md={4} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/2105/0147/products/20201225_100831A_1024x1024@2x.jpg?v=1610788130" className='cardImg' />
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
+       <Col md={3} className='cardCol'>
+       <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src={clay4} className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Set of Three Loving Couple in Rain Texture UV Art Painting</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://www.jaypore.com/?gclid=Cj0KCQjw_dWGBhDAARIsAMcYuJzBmvjDe9AR9ypXZzxdgq3uiJ6z9BDjbgRP_iE6oZiolt9ETmTGCxMaArSmEALw_wcB'>Visit Website</a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/white-and-blue-off-handcrafted-ceramic-studio-pottery-teapot-with-cane-handle-1000ml-dia-6in-h-10in-p671807'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
+       </Row>
 
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://turquoisethestore.com/" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://turquoisethestore.com/collections/pottery/products/terracotta-teapot-stone-age-mugs" target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col md={3} className='cardCol'>
-                            <Card className="focus mt-2 mb-2" id='section'>
-                                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSAAmiZYV7R5p5y6nlxgLhOB0abs8ZIEfKj4kZzFagKfCHMqBL-YPIJDl2ds4KmB83Q-hi4XRHkowYWecnDMbEK8__nVqWE-A&usqp=CAE" className='cardImg' />
-                                <Card.Body className='cardBody'>
-                                    <Card.Title className="title text-center  card-title">Clay Items</Card.Title>
-                                    <Card.Text>
-
-                                    </Card.Text>
-                                    <Button id='button 1' variant="outline-secondry" block><div><a href="https://afday.com/" target="_blank">Go to Website</a></div></Button>
-                                    <Button id='button 2' variant="outline-danger" block>
-                                        <div>
-                                            <a href="https://afday.com/amalfiee-terracotta-handmade-buddha-sitting-sculpture.html" target="_blank">Buy Now</a>
-                                        </div>
-                                    </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                </CardDeck>
-            </div>
-
-            <Footer />
+       <Row id='cardRow' >
+       <Col md={3} className='cardCol'>
+           <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src='https://vincraft.in/wp-content/uploads/2019/06/VC854.jpg.webp' className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Brass Antique Finish Village Bullock Cart showpiece</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://vincraft.in/'>Visit Website</a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://vincraft.in/home-decor/indian-handicrafts/handicraft-indian-cow-incense/'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
+       <Col md={3} className='cardCol'>
+       <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src='https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRl8HP-7qA6ApuNxG2Z5a1vAdzy-0zN0xZ54OdFeyVnzM3bnt8MweAOFNzZjg9eL-q3gvbez4XUTKsYpbtFOF6Oj5zPhLut2Q&usqp=CAE' className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Black Wire Mesh Pendant Light, Ceiling Hanging Lamp</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://pinkwinkgirl.com/'>Visit Website</a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://pinkwinkgirl.com/product/traditional-indian-terracotta-art-wall-hanging-for-home-5/'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
+       <Col md={3} className='cardCol'>
+       <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src='https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSRUkJ7PHo2lQjpurzsnAXpLUD5-c0e3B8IbodRjZ-sjPxv0qZDNtVI-sWeZR8XUMxbBaF3TIsYoG8uKh5oT9igv81MZxRfIiuCzV6ZROk3Dtm_VYNtNSasHg&usqp=CAE' className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Set of Three Loving Couple in Rain Texture UV Art Painting</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://www.claymango.com/index.php'></a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.claymango.com/productdisplay.php?viewone=h435'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
+       <Col md={3} className='cardCol'>
+       <Card className="focus mt-2 mb-2" id='sec'>
+           <Card.Img variant="top" src='https://cdn.shopify.com/s/files/1/2105/0147/products/20201225_100831A_1024x1024@2x.jpg?v=1610788130' className='cardImg' />
+           <Card.Body className='cardBody'>
+               <Card.Title className="title text-center  card-title">Set of Three Loving Couple in Rain Texture UV Art Painting</Card.Title>
+               <Card.Text id='cardText'>
+     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+   </Card.Text>
+   <Button id= 'button1' variant="outline-secondary"><a href='https://turquoisethestore.com/'>Visit Website</a><ShoppingCart /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://turquoisethestore.com/collections/pottery/products/terracotta-teapot-stone-age-mugs'>Buy Now</a></Button>
+           </Card.Body>
+           </Card>
+       </Col>
+       </Row>
+       </CardDeck>
        </div>
-        
-
+       <Footer />
+       </div>
+       </>
     )
 }
 
-export default Clay
+export default Lamps
