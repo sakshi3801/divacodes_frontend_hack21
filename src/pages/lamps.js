@@ -6,6 +6,17 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import NavbarComp from '../Components/NavbarComp'
 import Footer from '../Components/Footer'
+import { ShoppingCart} from '@material-ui/icons';
+import lamp1 from '../images/product/shopping.webp'
+import lamp2 from '../images/product/lamp5.jpg'
+import lamp3 from '../images/product/lamp2.jpg'
+import lamp4 from '../images/product/lamp6.jpg'
+import lamp5 from '../images/product/lamp7.jpg'
+import lamp6 from '../images/product/lamp8.jpg'
+import lamp7 from '../images/product/lamp9.jpg'
+import lamp8 from '../images/product/lamp10.jpg'
+import './product.css'
+
 function Lamps() {
     return (
         <div>
