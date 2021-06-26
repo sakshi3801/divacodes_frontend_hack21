@@ -190,4 +190,4 @@ function Clay() {
     )
 }
 
-export default Lamps
+export default Clay
