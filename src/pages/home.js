@@ -14,6 +14,7 @@ import wall from './wall'
 import customerService from './customerService'
 import register from './register.js';
 import login from './login.js';
+import joinUs from './joinUs.js';
 function Home() {
     return (
         <>
@@ -30,6 +31,7 @@ function Home() {
             <Route path='/Customer' exact component={customerService} />
             <Route path='/register' exact component={register} />
             <Route path='/login' exact component={login} />
+            <Route path='/joinus' exact component={joinUs} />
             {/* <NavbarComp />
             <Carousal />
             <ShopByCategory />
