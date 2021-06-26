@@ -16,7 +16,8 @@ const Footer = () => {
             <div id='footerDown'>
                 <div id='address'>
                     <h3 id='head'>About Us</h3>
-                    <p id='about'>Craft Moon is an idea to bring the prestigious Indian handicraft sold by websites and artisans together on a sinle platform. </p>
+                    <p id='about'>Craft Moon is an idea to bring the prestigious Indian handicraft close to the global population. We intend to bring the small websites selling authentic 
+                    craftwork and the real magicians, our artisans on a single platform to sell their goods directly to their customers and beefit from the ease of access and reach. </p>
                     <br />
                     <div id='socialMedia'>
                         {/* <TwitterIcon id='icons' className='media'/>
