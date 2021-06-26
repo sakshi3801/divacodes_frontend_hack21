@@ -16,10 +16,7 @@ const Carousal = ()=>{
             
             <div>
               <img className="d-block w-100" id='im' src={carousal1} alt="First slide"/>
-              <div style={{ color: "#ff0000", backgroundColor:"#ffffff", borderRadius:"30px", opacity:"0.8"}} class="text-block">
-                  <h1>Welcome to Craft Moon</h1>
-                <h3>A selected collection of hancrafted home/office decor</h3>
-                </div>
+             
              </div>
               
      
@@ -32,10 +29,7 @@ const Carousal = ()=>{
                 src={carousal2}
                 alt="Third slide"
               />
-              <div style={{ color: "#000000" }} class="text-block color: rgb(26, 25, 25);">
-                <h1>Welcome to Craft Moon</h1>
-                <h3>A selected collection of hancrafted home/office decor</h3>
-              </div>
+             
             </div>
     
   </Carousel.Item>
@@ -47,10 +41,7 @@ const Carousal = ()=>{
                 src={carousal3}
                 alt="Second slide"
               />
-              <div style={{ color: "#000000", backgroundColor: "#ffffff", borderRadius: "30px", opacity: "0.7" }} class="text-block color: rgb(26, 25, 25);">
-                <h1>Welcome to Craft Moon</h1>
-                <h3>A selected collection of hancrafted home/office decor</h3>
-              </div>
+            
             </div>
   </Carousel.Item>
   <Carousel.Item>
@@ -61,10 +52,7 @@ const Carousal = ()=>{
                 src={carousal4}
                 alt="Third slide"
               />
-              <div style={{color:"#ffffff"}}class="text-block ">
-                <h1>Welcome to Craft Moon</h1>
-                <h3>A selected collection of hancrafted home/office decor</h3>
-              </div>
+            
             </div>
   </Carousel.Item>
 

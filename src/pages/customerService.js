@@ -1,8 +1,13 @@
 import React from 'react'
+import NavbarComp from '../Components/NavbarComp'
+import Footer from '../Components/Footer'
 
 function customerService()
 {
     return(
+         <>
+            <div>
+                <NavbarComp />
    <div >
             <h1 className="text-center text-2xl p-3">
            Customer Support
@@ -13,6 +18,10 @@ function customerService()
             <h4><a style={{ marginRight: '.5rem' }} href="mailto:saakshi030801@gmail.com"> Sakshi Ramsinghani</a>
              Phone Number: <span style={{ color: "#0000ff" }}>7987617236</span></h4>
    </div>
+                <Footer />
+            </div>
+            </>
+
     )
 }
 export default customerService
