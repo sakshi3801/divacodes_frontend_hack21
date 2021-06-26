@@ -6,9 +6,11 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import NavbarComp from '../Components/NavbarComp'
 import Footer from '../Components/Footer'
+
 import { ShoppingCart} from '@material-ui/icons';
 import metal1 from '../images/product/metal17.jpg'
 import metal2 from '../images/product/metal20.jpg'
+
 import clay3 from '../images/product/clay7.jpeg'
 import metal4 from '../images/product/metal19.jpg'
 import metal5 from '../images/product/metal4.jpg'
