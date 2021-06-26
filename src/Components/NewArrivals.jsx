@@ -8,7 +8,7 @@ import new3 from '../images/home/new3.jpg'
 import new4 from '../images/home/new4.jpg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import { ShoppingCart} from '@material-ui/icons';
+import LanguageIcon from '@material-ui/icons/Language';
 import './NewArrivals.css'
 const NewArrivals = ()=>{
 
@@ -18,7 +18,7 @@ const NewArrivals = ()=>{
 <div id='card'>
         <CardDeck id='cardDeck'>
         <Row id='cardRow' >
-        <Col md={3} className='cardCol'>
+        <Col md={3} xs={6} className='cardCol'>
             <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new1} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -26,12 +26,12 @@ const NewArrivals = ()=>{
                 <Card.Text id='cardText'>
       <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
+    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
     <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
-        <Col md={3} className='cardCol'>
+        <Col md={3} xs={6} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new2} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -39,12 +39,12 @@ const NewArrivals = ()=>{
                 <Card.Text id='cardText'>
       <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
+    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
     <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
-        <Col md={3} className='cardCol'>
+        <Col md={3} xs={6} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new3} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -52,13 +52,13 @@ const NewArrivals = ()=>{
                 <Card.Text id='cardText'>
       <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
+    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic'/></Button>
     <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>
         </Col>
 
-        <Col md={3} className='cardCol'>
+        <Col md={3} xs={6} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new4} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -66,7 +66,7 @@ const NewArrivals = ()=>{
                 <Card.Text id='cardText'>
       <span id='price1'>Rs 1500.00</span> <h5 id = 'price2'>Rs. 1111.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <ShoppingCart /></Button>
+    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
     <Button id= 'button2' variant="danger">Buy Now</Button>
             </Card.Body>
             </Card>

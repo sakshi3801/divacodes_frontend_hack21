@@ -41,4 +41,30 @@
     background-image: linear-gradient(180deg, white, hsl(59, 79%, 62%));
 
   }
+
+  @media only screen and (max-width: 768px) {
+
+    #button1{
+
+        /* float: left; */
+        size: small;
+        padding-bottom: 0.4375rem;
+        margin-bottom: 0.4375rem;
+    }
+    
+    #button2{
+    
+        position: relative;
+        right: 0.2rem;
+        size: small;
+    }
+
+    #ic{
+
+        font-size: 15px;
+    }
+
+
+
+  }
   

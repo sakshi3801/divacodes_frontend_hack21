@@ -19,11 +19,11 @@ const Footer = ()=>{
             <p id='about'>Craft Moon brings all the websites big or small, selling handicrafts, under one roof. </p>
             <br />
             <div id='socialMedia'>
-            <TwitterIcon id='icons' className='media'/>
+            {/* <TwitterIcon id='icons' className='media'/>
                 <FacebookIcon id='icons' className='media'/>
-                <InstagramIcon id='icons' className='media'/>
+                <InstagramIcon id='icons' className='media'/> */}
                 </div>
-                <p id='copy'>Copyright © Craft Moon 2021- All Rights Reserved</p>
+                
  </div>
  <div id='contact'>
            
@@ -34,7 +34,10 @@ const Footer = ()=>{
 <a href="mailto:saakshi030801@gmail.com" target="_blank" rel="noopener noreferrer" id='mail'>  craftmoon@gmail.com</a>
 <br /><br />
 <CallIcon id='icons'/> +91-7987617236
-
+<br /><br />
+<TwitterIcon id='icons' className='media'/>
+                <FacebookIcon id='icons' className='media'/>
+                <InstagramIcon id='icons' className='media'/>
  </div>
 
 </div>
