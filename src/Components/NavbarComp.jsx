@@ -22,9 +22,9 @@ const NavbarComp = () => {
                     <Nav className="ml-auto" id='middle'>
 
 
-                        <Nav.Link id='navItem' href="#features">Customer service</Nav.Link>
-                        <Nav.Link id='navItem' href="#pricing">Login</Nav.Link>
-                        <Nav.Link id='navItem' href="#deets">Register</Nav.Link>
+                        <Nav.Link id='navItem' href="/Customer">Customer service</Nav.Link>
+                        <Nav.Link id='navItem' href="/login">Login</Nav.Link>
+                        <Nav.Link id='navItem' href="/register">Register</Nav.Link>
                         <Nav.Link id='navItem' href="#memes"><ShoppingCart id='cart' />Cart</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
