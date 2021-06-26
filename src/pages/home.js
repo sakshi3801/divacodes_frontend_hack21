@@ -11,7 +11,10 @@ import clay from './clay'
 import lamps from './lamps'
 import metal from './metal'
 import wall from './wall'
-
+import customerService from './customerService'
+import register from './register.js';
+import login from './login.js';
+import joinUs from './joinUs';
 function Home(){
     return(
             <>
@@ -25,6 +28,10 @@ function Home(){
             <Route path='/Lamps' exact component={lamps} />
             <Route path='/Metal' exact component={metal} />
             <Route path='/Wall' exact component={wall} />
+            <Route path='/Customer' exact component={customerService} />
+            <Route path='/register' exact component={register} />
+            <Route path='/login' exact component={login} />
+            <Route path='/joinus' exact component={joinUs} />
             {/* <NavbarComp />
             <Carousal />
             <ShopByCategory />

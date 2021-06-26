@@ -36,8 +36,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/gold-white-and-aluminium-decorative-glass-jar-with-peacock-knob-lid-and-aluminum-p722891'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/gold-white-and-aluminium-decorative-glass-jar-with-peacock-knob-lid-and-aluminum-p722891' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -49,8 +49,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.dekorcompany.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='dekorcompany.com/products/the-jaipur-royal-elephant-table-decoration-showpiece-small?variant=39565485605028&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=CjwKCAjwoNuGBhA8EiwAFxomA59DOzci19bmkOk9jNYuEW870mzwdMeL8UGOK9t6B_nnhVb2i8f1FhoCpGEQAvD_BwE'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.dekorcompany.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='dekorcompany.com/products/the-jaipur-royal-elephant-table-decoration-showpiece-small?variant=39565485605028&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=CjwKCAjwoNuGBhA8EiwAFxomA59DOzci19bmkOk9jNYuEW870mzwdMeL8UGOK9t6B_nnhVb2i8f1FhoCpGEQAvD_BwE' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -63,8 +63,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://okhai.org/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://okhai.org/products/dhokra-craft-stationery-holder-jaali?variant=34431258001574&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://okhai.org/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://okhai.org/products/dhokra-craft-stationery-holder-jaali?variant=34431258001574&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -78,8 +78,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ajio.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ajio.com/ecraftindia-brass-lord-ganesha-on-rocking-chair-antique-showpiece/p/461557104_brown'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ajio.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ajio.com/ecraftindia-brass-lord-ganesha-on-rocking-chair-antique-showpiece/p/461557104_brown' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -94,8 +94,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.homecentre.in/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.homecentre.in/in/en/Decor/Home-Accessories/Vases/HOMECENTRE-Stellar-Fantasy-N-Celestial-Textured-Tall-Single-Pc-Vase--Stoneware--Gold/p/1000008417741'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.homecentre.in/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.homecentre.in/in/en/Decor/Home-Accessories/Vases/HOMECENTRE-Stellar-Fantasy-N-Celestial-Textured-Tall-Single-Pc-Vase--Stoneware--Gold/p/1000008417741' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -108,8 +108,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/peacock-green-and-gold-hand-painted-brass-utsav-masaldan-h-175-in-dia-65in-p671829'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/peacock-green-and-gold-hand-painted-brass-utsav-masaldan-h-175-in-dia-65in-p671829' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -121,8 +121,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/brass-urli-l-8in-w-9in-h-95in-p585573'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/brass-urli-l-8in-w-9in-h-95in-p585573' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -135,8 +135,8 @@ function Lamps() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.artisansoul.in/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.artisansoul.in/products/authentic-dokra-art-from-odisha-dancing-women'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.artisansoul.in/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.artisansoul.in/products/authentic-dokra-art-from-odisha-dancing-women' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>

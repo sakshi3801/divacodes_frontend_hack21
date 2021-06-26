@@ -1,6 +1,6 @@
 #footer{
 
-    height: 15.18rem;
+    height: 16.18rem;
     background-color: #232323;
     margin-top: 70px;
     color: white;
@@ -72,6 +72,7 @@
 
   #about{
     
+    font-size: 15px;
     width: 60%;
   }
 
@@ -86,7 +87,7 @@
 
     #footer{
 
-      height: 25.18rem;
+      height: 27rem;
       background-color: #232323;
       margin-top: 70px;
       color: white;

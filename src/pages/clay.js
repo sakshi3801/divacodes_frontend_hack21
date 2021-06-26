@@ -13,7 +13,7 @@ import clay3 from '../images/product/clay7.jpeg'
 import clay4 from '../images/product/clay8.jpg'
 import clay5 from '../images/product/clay10.jpg'
 import clay6 from '../images/product/clay6.jpg'
-import clay7 from '../images/product/clay9.jpg'
+import clay7 from '../images/product/clay11.jpg'
 import lamp7 from '../images/product/lamp9.jpg'
 import lamp8 from '../images/product/lamp10.jpg'
 import LanguageIcon from '@material-ui/icons/Language';
@@ -32,12 +32,13 @@ function Clay() {
            <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={clay7} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Brass Antique Finish Village Bullock Cart showpiece</Card.Title>
+               <Card.Title className="title text-center  card-title">Elae Cup And Saucer (Set Of 4)
+</Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
+     <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1840.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://decorifylife.com/index.php/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://decorifylife.com/index.php/terracotta-earthenware-indian-traditional-dancing-figure-tea-kettele'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://freedomtree.in/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://freedomtree.in/collections/coffee-mugs/products/elae-cup-and-saucer-set-of-4' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -45,13 +46,13 @@ function Clay() {
        <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={clay5} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Eli Yellow Handcrafted Ceramic Planter (Dia - 3.5in, H - 4.5in)
+               <Card.Title className="title text-center  card-title">Eli Yellow Handcrafted Ceramic Planter
 </Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
+     <span id='price1'>Rs 1999.00</span> <h5 id = 'price2'>Rs. 1750.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic'/></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/eli-yellow-handcrafted-ceramic-planter-dia-35in-h-45in-p651967?gclid=CjwKCAjwoNuGBhA8EiwAFxomAxgMY1gkARV4T-Bt4KfWDUlF4hwrZiferDVoBC9raWKhfb9q9ondNhoCflAQAvD_BwE'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic'/></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/eli-yellow-handcrafted-ceramic-planter-dia-35in-h-45in-p651967?gclid=CjwKCAjwoNuGBhA8EiwAFxomAxgMY1gkARV4T-Bt4KfWDUlF4hwrZiferDVoBC9raWKhfb9q9ondNhoCflAQAvD_BwE' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -59,13 +60,13 @@ function Clay() {
        <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={clay3} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Terracotta Hand painted Earthen Warli Vases - Set of 3 Vases Set
+               <Card.Title className="title text-center  card-title">Terracotta Hand painted Earthen Warli Vases
 </Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+     <span id='price1'>Rs 1600.00</span> <h5 id = 'price2'>Rs. 1428.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://in.availeverything.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://in.availeverything.com/product/Terracotta-Hand-painted-Earthen-Warli-Vases-for-Home-Dcor-Set-of-3--Vases-Set-LuJLM'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://in.availeverything.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://in.availeverything.com/product/Terracotta-Hand-painted-Earthen-Warli-Vases-for-Home-Dcor-Set-of-3--Vases-Set-LuJLM' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -75,12 +76,12 @@ function Clay() {
        <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={clay4} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Off White Handcrafted Ceramic Studio Pottery Teapot with Cane Handle</Card.Title>
+               <Card.Title className="title text-center  card-title">Handcrafted Ceramic Studio Pottery Teapot</Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 1795.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/white-and-blue-off-handcrafted-ceramic-studio-pottery-teapot-with-cane-handle-1000ml-dia-6in-h-10in-p671807'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/white-and-blue-off-handcrafted-ceramic-studio-pottery-teapot-with-cane-handle-1000ml-dia-6in-h-10in-p671807' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -93,10 +94,10 @@ function Clay() {
            <Card.Body className='cardBody'>
                <Card.Title className="title text-center  card-title">Handicraft Indian Cow Incense</Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
+     <span id='price1'>Rs 1555.00</span> <h5 id = 'price2'>Rs. 1349.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://vincraft.in/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://vincraft.in/home-decor/indian-handicrafts/handicraft-indian-cow-incense/'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://vincraft.in/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://vincraft.in/home-decor/indian-handicrafts/handicraft-indian-cow-incense/' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -106,10 +107,10 @@ function Clay() {
            <Card.Body className='cardBody'>
                <Card.Title className="title text-center  card-title">Traditional Indian terracotta art Wall Hanging</Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
+     <span id='price1'>Rs 2101.00</span> <h5 id = 'price2'>Rs. 1650.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://pinkwinkgirl.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://pinkwinkgirl.com/product/traditional-indian-terracotta-art-wall-hanging-for-home-5/'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://pinkwinkgirl.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://pinkwinkgirl.com/product/traditional-indian-terracotta-art-wall-hanging-for-home-5/' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -119,10 +120,10 @@ function Clay() {
            <Card.Body className='cardBody'>
                <Card.Title className="title text-center  card-title">Mandna Bottles - Made out of Terracotta Clay</Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+     <span id='price1'>Rs 1845.00</span> <h5 id = 'price2'>Rs. 1449.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.claymango.com/index.php'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.claymango.com/productdisplay.php?viewone=h435'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.claymango.com/index.php' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.claymango.com/productdisplay.php?viewone=h435' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -132,10 +133,10 @@ function Clay() {
            <Card.Body className='cardBody'>
                <Card.Title className="title text-center  card-title">Terracotta teapot & stone age mugs</Card.Title>
                <Card.Text id='cardText'>
-     <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+     <span id='price1'>Rs 1050.00</span> <h5 id = 'price2'>Rs. 750.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://turquoisethestore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://turquoisethestore.com/collections/pottery/products/terracotta-teapot-stone-age-mugs'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://turquoisethestore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://turquoisethestore.com/collections/pottery/products/terracotta-teapot-stone-age-mugs' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>

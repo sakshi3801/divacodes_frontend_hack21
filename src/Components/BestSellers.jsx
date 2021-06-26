@@ -26,11 +26,11 @@ const BestSellers = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Golden Handcrafted Buddha Palm</Card.Title>
                 <Card.Text id='cardText'>
-      <span id='price1'>Rs 1313.00</span> <h5 id = 'price2'>Rs. 999.00</h5>
+      <span id='price1'>Rs 1999.00</span> <h5 id = 'price2'>Rs. 699.00</h5>
     </Card.Text>
     <div id='button' className='mr-auto'>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ecraftindia-golden-handcrafted-buddha-palm' target='_blank'>Buy Now</a></Button>
     </div>
             </Card.Body>
             </Card>
@@ -41,10 +41,10 @@ const BestSellers = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Lord Ganesha on Rocking Chair </Card.Title>
                 <Card.Text id='cardText'>
-      <span id='price1'>Rs 1657.00</span> <h5 id = 'price2'>Rs. 1450.00</h5>
+      <span id='price1'>Rs 1499.00</span> <h5 id = 'price2'>Rs. 699.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/agg556-ecraftindia-lord-ganesha-on-rocking-chair-antique-showpiece' target='_blank'>Buy Now</a></Button>
             </Card.Body>
             </Card>
         </Col>
@@ -56,8 +56,8 @@ const BestSellers = ()=>{
                 <Card.Text id='cardText'>
       <span id='price1'>Rs 2615.00</span> <h5 id = 'price2'>Rs. 2399.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ecraftindia-five-steps-cylinderical-water-fountain?variant=26734681030756&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=CjwKCAjwoNuGBhA8EiwAFxomA6P422G6PIsGKRb9iw6AfORJoWBHfbA6l88ZM1x5Vl1sAJZ8_WXc_BoCwZIQAvD_BwE' target='_blank'>Buy Now</a></Button>
             </Card.Body>
             </Card>
         </Col>
@@ -68,11 +68,11 @@ const BestSellers = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Wrought Iron Bansuri Ganesha Wall Hanging</Card.Title>
                 <Card.Text id='cardText'>
-      <span id='price1'>Rs 1222.00</span> <h5 id = 'price2'>Rs. 1100.00</h5>
+      <span id='price1'>Rs 3499.00</span> <h5 id = 'price2'>Rs. 1495.00</h5>
     </Card.Text>
     <div id='en'>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ibg500_a-ecraftindia-wrought-iron-bansuri-ganesha-wall-hanging?variant=31690441392230&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=CjwKCAjwoNuGBhA8EiwAFxomA5ZhZUw2exCZ4YAbtFQLKCU7T_U9a_vDuRaB_O3KRb_oOhcR2oiYLBoCuNkQAvD_BwE' target='_blank'>Buy Now</a></Button>
     </div>
             </Card.Body>
             </Card>

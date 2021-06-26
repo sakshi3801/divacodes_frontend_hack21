@@ -2,7 +2,7 @@ import React from 'react'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import new1 from '../images/home/new1.jpg'
+import new1 from '../images/home/new6.jpg'
 import new2 from '../images/home/new2.jpeg'
 import new3 from '../images/home/new3.jpg'
 import new4 from '../images/home/new4.jpg'
@@ -22,12 +22,12 @@ const NewArrivals = ()=>{
             <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new1} className='cardImg' />
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Brass Antique Finish Village Bullock Cart showpiece</Card.Title>
+                <Card.Title className="title text-center  card-title">Multicolor Brass Antique Finish Village Bullock Cart - Handmade</Card.Title>
                 <Card.Text id='cardText'>
-      <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
+      <span id='price1'>Rs 1550.00</span> <h5 id = 'price2'>Rs. 950.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.indiamart.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.indiamart.com/proddetail/brass-antique-finish-village-bullock-cart-23302537448.html' target='_blank'>Buy Now</a></Button>
             </Card.Body>
             </Card>
         </Col>
@@ -35,12 +35,13 @@ const NewArrivals = ()=>{
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new2} className='cardImg' />
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Black Wire Mesh Pendant Light, Ceiling Hanging Lamp</Card.Title>
+                <Card.Title className="title text-center  card-title">Set of 3 Loving Couple in Rain Satin Matt Texture UV Art Painting
+</Card.Title>
                 <Card.Text id='cardText'>
-      <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
+      <span id='price1'>Rs 1099.00</span> <h5 id = 'price2'>Rs. 495.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ecraftindia-shehnai-shape-papier-mache-wooden-handcrafted-wall-clock' target='_blank'>Buy Now</a></Button>
             </Card.Body>
             </Card>
         </Col>
@@ -48,12 +49,13 @@ const NewArrivals = ()=>{
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new3} className='cardImg' />
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Set of Three Loving Couple in Rain Texture UV Art Painting</Card.Title>
+                <Card.Title className="title text-center  card-title">Shehnai Shape Papier-Mache Wooden Handcrafted Wall Clock
+</Card.Title>
                 <Card.Text id='cardText'>
-      <span id='price1'>Rs 2300.00</span> <h5 id = 'price2'>Rs. 2000.00</h5>
+      <span id='price1'>Rs 2999.00</span> <h5 id = 'price2'>Rs. 1999.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic'/></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic'/></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ecraftindia-shehnai-shape-papier-mache-wooden-handcrafted-wall-clock' target='_blank'>Buy Now</a></Button>
             </Card.Body>
             </Card>
         </Col>
@@ -62,12 +64,12 @@ const NewArrivals = ()=>{
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new4} className='cardImg' />
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Shehnai Shape Papier-Mache Wooden Handcrafted Wall Clock</Card.Title>
+                <Card.Title className="title text-center  card-title">Black Wire Mesh Pendant Light, Ceiling Hanging Lamp</Card.Title>
                 <Card.Text id='cardText'>
-      <span id='price1'>Rs 1500.00</span> <h5 id = 'price2'>Rs. 1111.00</h5>
+      <span id='price1'>Rs 2099.00</span> <h5 id = 'price2'>Rs. 1099.00</h5>
     </Card.Text>
-    <Button id= 'button1' variant="outline-secondary">Add to cart  <LanguageIcon id='ic' /></Button>
-    <Button id= 'button2' variant="danger">Buy Now</Button>
+    <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+    <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ilamp_cl01-ecraftindia-black-wire-mesh-pendant-light-ceiling-hanging-lamp-for-home-living-room-offices-restaurants' target='_blank'>Buy Now</a></Button>
             </Card.Body>
             </Card>
         </Col>

@@ -15,7 +15,7 @@ const Carousal = ()=>{
     <img
       className="d-block w-100" id='im'
       src={carousal1}
-      alt="Third slide"
+      alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
@@ -24,6 +24,7 @@ const Carousal = ()=>{
       src={carousal2}
       alt="Third slide"
     />
+
   </Carousel.Item>
   <Carousel.Item>
     <img

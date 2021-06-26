@@ -26,7 +26,7 @@ const ShopByCategory = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Wall Decor</Card.Title>
                 <Card.Text>
-      Wall decors including dream catchers, clocks, tapestries, etc.
+                Simple yet beautiful tapestries, wall clocks, dream catchers and a lot more, to adorn your walls...
     </Card.Text>
     <Link id='routerLink' to='/Wall'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>
@@ -38,7 +38,7 @@ const ShopByCategory = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Lamp and Lanterns</Card.Title>
                 <Card.Text>
-     Lamp and Lanterns in affordable ranges.
+                Light your room with bright, colorful handcrafted lamps and lanterns and spread joy...
     </Card.Text>
     <Link id='routerLink' to='/Lamps'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>
@@ -50,7 +50,7 @@ const ShopByCategory = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Metal</Card.Title>
                 <Card.Text>
-      Metal handmade items including figurines, showpieces, etc.
+                Figurines, vases, and many more metallic pieces that shine and tell long lost stories, of our past...
     </Card.Text>
     <Link id='routerLink' to='/Metal'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>
@@ -62,7 +62,7 @@ const ShopByCategory = ()=>{
             <Card.Body className='cardBody'>
                 <Card.Title className="title text-center  card-title">Clay</Card.Title>
                 <Card.Text>
-      Wide variety of clay items including pots, mugs, etc.
+                Cups, bottles, incense stick holders, made of clay to bring you close to Mother Earth...
     </Card.Text>
     <Link id='routerLink' to='/Clay'><Button id= 'wallButton' variant="danger" size="lg" block>Explore</Button></Link>
             </Card.Body>

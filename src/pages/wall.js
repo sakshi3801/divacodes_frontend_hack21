@@ -38,8 +38,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 375.00</span> <h5 id = 'price2'>Rs. 250.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.indiamart.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.indiamart.com/proddetail/hippy-mandala-wall-hanging-decorative-handmade-tapestry-17715880155.html'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.indiamart.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.indiamart.com/proddetail/hippy-mandala-wall-hanging-decorative-handmade-tapestry-17715880155.html' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -52,8 +52,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 1212.00</span> <h5 id = 'price2'>Rs. 1000.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/antique-gold-malhar-wall-screen-l-75in-w-3in-h-215in-iron-p712280'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/antique-gold-malhar-wall-screen-l-75in-w-3in-h-215in-iron-p712280' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -66,8 +66,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 1623.00</span> <h5 id = 'price2'>Rs. 1349.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.mirraw.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.mirraw.com/designers/ecraftindia/designs/ganesh-deepak-with-bell-brass-wall-hanging-and-artifact-other-home-accessory'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.mirraw.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.mirraw.com/designers/ecraftindia/designs/ganesh-deepak-with-bell-brass-wall-hanging-and-artifact-other-home-accessory' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -81,8 +81,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 899.00</span> <h5 id = 'price2'>Rs. 530.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.mirraw.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.mirraw.com/designers/ecraftindia/designs/love-birds-satin-matt-texture-uv-art-painting'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.mirraw.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.mirraw.com/designers/ecraftindia/designs/love-birds-satin-matt-texture-uv-art-painting' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -98,8 +98,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 1899.00</span> <h5 id = 'price2'>Rs. 1199.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ecraftindia-sunrise-view-decorative-wooden-handcrafted-wall-clock'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ecraftindia.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ecraftindia-sunrise-view-decorative-wooden-handcrafted-wall-clock' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -112,8 +112,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ajio.com/'>Visit Website </a><LanguageIcon id='ic'/></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ajio.com/ecraftindia-set-of-3-floral-and-botanical-satin-matt-textured-uv-art-painting/p/461804512_blue'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.ajio.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic'/></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.ajio.com/ecraftindia-set-of-3-floral-and-botanical-satin-matt-textured-uv-art-painting/p/461804512_blue' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -126,8 +126,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 655.00</span> <h5 id = 'price2'>Rs. 450.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://artbodymind.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://artbodymind.com/products/antique-handmade-dream-catcher-peacock-feather-wall-hanging-decoration-wind-chimes-ornament-25-long'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://artbodymind.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://artbodymind.com/products/antique-handmade-dream-catcher-peacock-feather-wall-hanging-decoration-wind-chimes-ornament-25-long' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
@@ -139,8 +139,8 @@ function Wall() {
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
    </Card.Text>
-   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/pink-acacia-wood-net-floral-series-wall-plate-p724826'>Buy Now</a></Button>
+   <Button id= 'button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/' target='_blank'>Visit Website </a><LanguageIcon id='ic' /></Button>
+   <Button id= 'button2' variant="danger"><a id='buy' href='https://www.jaypore.com/pink-acacia-wood-net-floral-series-wall-plate-p724826' target='_blank'>Buy Now</a></Button>
            </Card.Body>
            </Card>
        </Col>
