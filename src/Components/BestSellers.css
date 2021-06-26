@@ -40,7 +40,6 @@
   #best{
     background-image: linear-gradient(180deg, white, hsl(59, 79%, 62%));
 
-
   }
 
   @media only screen and (max-width: 768px) {
@@ -68,4 +67,3 @@
 
 
   }
-  
