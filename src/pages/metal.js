@@ -4,10 +4,13 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import NavbarComp from '../Components/NavbarComp'
+import Footer from '../Components/Footer'
 
 function Metal() {
     return (
         <div>
+            <NavbarComp />
             <div>
                 <h1 className="text-2xl text-center p-3">Metal-Lustre and Strength together</h1>
             </div>
@@ -179,6 +182,7 @@ function Metal() {
                     </Row>
                 </CardDeck>
             </div>
+            <Footer />
         </div>
 
 
