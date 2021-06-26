@@ -7,15 +7,14 @@ import Button from 'react-bootstrap/Button'
 import NavbarComp from '../Components/NavbarComp'
 import Footer from '../Components/Footer'
 import { ShoppingCart } from '@material-ui/icons';
-import metal1 from '../images/product/metal17.jpg'
-import metal2 from '../images/product/metal20.jpg'
-import clay3 from '../images/product/clay7.jpeg'
-import metal4 from '../images/product/metal19.jpg'
-import metal5 from '../images/product/metal4.jpg'
-import metal6 from '../images/product/metal18.jpg'
-import metal9 from '../images/product/metal9.jpg'
-import metal12 from '../images/product/metal12.jpg'
-import metal14 from '../images/product/metal14.jpg'
+import lamp1 from '../images/product/shopping.webp'
+import lamp2 from '../images/product/lamp5.jpg'
+import lamp3 from '../images/product/lamp2.jpg'
+import lamp4 from '../images/product/lamp6.jpg'
+import lamp5 from '../images/product/lamp7.jpg'
+import lamp6 from '../images/product/lamp8.jpg'
+import lamp7 from '../images/product/lamp9.jpg'
+import lamp8 from '../images/product/lamp10.jpg'
 import LanguageIcon from '@material-ui/icons/Language';
 import './product.css'
 
@@ -24,47 +23,46 @@ function Lamps() {
         <>
             <NavbarComp />
             <div id='shop'>
-                <h2 id='category'>Metal-Lustre and Strength together</h2>
+                <h2 id='category'>Lamps-Light your Homes and Life</h2>
                 <div id='card'>
                     <CardDeck id='cardDeck'>
                         <Row id='cardRow' >
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal1} className='cardImg' />
+                                    <Card.Img variant="top" src={lamp1} className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">White And Gold Aluminium Decorative Glass Jar With Peacock Knob Lid</Card.Title>
+                                        <Card.Title className="title text-center  card-title">Antique Copper Iron Lantern With Handle In Green Patina Finish (Dia - 8in, H - 7.5in)</Card.Title>
                                         <Card.Text id='cardText'>
-                                            <span id='price1'>Rs 2000.00</span> <h5 id='price2'>Rs. 1850.00</h5>
+                                            <span id='price1'>Rs 2000.00</span> <h5 id='price2'>Rs. 1425.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.jaypore.com/gold-white-and-aluminium-decorative-glass-jar-with-peacock-knob-lid-and-aluminum-p722891'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary" href='https://www.jaypore.com/' target="_blank">Visit website <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.jaypore.com/antique-copper-iron-lantern-with-handle-in-green-patina-finish-dia-8in-h-75in-p666594' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal2} className='cardImg' />
+                                    <Card.Img variant="top" src={lamp3} className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">The Jaipur Royal Elephant Table Decoration Showpiece</Card.Title>
+                                        <Card.Title className="title text-center  card-title">Black Wire Mesh Pendant Light, Ceiling Hanging Lamp</Card.Title>
                                         <Card.Text id='cardText'>
                                             <span id='price1'>Rs 3430.00</span> <h5 id='price2'>Rs. 2990.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://www.dekorcompany.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='dekorcompany.com/products/the-jaipur-royal-elephant-table-decoration-showpiece-small?variant=39565485605028&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=CjwKCAjwoNuGBhA8EiwAFxomA59DOzci19bmkOk9jNYuEW870mzwdMeL8UGOK9t6B_nnhVb2i8f1FhoCpGEQAvD_BwE'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary" href='https://www.ecraftindia.com/' target="_blank">Visit Website  <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ilamp_cl01-ecraftindia-black-wire-mesh-pendant-light-ceiling-hanging-lamp-for-home-living-room-offices-restaurants' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal9} className='cardImg' />
+                                    <Card.Img variant="top" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxK64550E9l7QP3_bcD1dN30kmTClq33uLJcZR63JvI35lAyEEkp5ZV--JRAj3_J8ox70oP_8ufi3zY9ov84l8cqIjeOj4nljF3Q__LmEwUfnLFUI4JTc7DA&usqp=CAE" className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">Dhokra Craft Handmade Rustic Stationery Holder  -  Jaali
-                                        </Card.Title>
+                                        <Card.Title className="title text-center  card-title">14 Inch Pyramid Lamp In Sheesham Wood</Card.Title>
                                         <Card.Text id='cardText'>
                                             <span id='price1'>Rs 2300.00</span> <h5 id='price2'>Rs. 2000.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://okhai.org/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='https://okhai.org/products/dhokra-craft-stationery-holder-jaali?variant=34431258001574&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary" href='https://exclusivelane.com/' target="_blank">Visit Website  <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://exclusivelane.com/products/14-inch-pyramid-lamp-in-sheesham-wood-el-003-061?variant=32589094813758&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -72,14 +70,14 @@ function Lamps() {
 
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal4} className='cardImg' />
+                                    <Card.Img variant="top" src={lamp8} className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">Brass Lord Ganesha on Rocking Chair Antique Showpiece</Card.Title>
+                                        <Card.Title className="title text-center  card-title">Andhra Leather Craft - Painted Standing Lamp, Small</Card.Title>
                                         <Card.Text id='cardText'>
                                             <span id='price1'>Rs 2300.00</span> <h5 id='price2'>Rs. 2000.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://www.ajio.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.ajio.com/ecraftindia-brass-lord-ganesha-on-rocking-chair-antique-showpiece/p/461557104_brown'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary" href='https://theindiacrafthouse.com/' target="_blank">Visit Website  <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://theindiacrafthouse.com/products/andhra-leather-craft-painted-standing-lamp-small-2?variant=9006527709228&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -88,55 +86,53 @@ function Lamps() {
                         <Row id='cardRow' >
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal5} className='cardImg' />
+                                    <Card.Img variant="top" src={lamp5} className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">Textured Tall Single Pc. Vase - Stoneware</Card.Title>
+                                        <Card.Title className="title text-center  card-title">Handcrafted Jaaliwork Wooden Lamp (Medium)</Card.Title>
                                         <Card.Text id='cardText'>
                                             <span id='price1'>Rs 2000.00</span> <h5 id='price2'>Rs. 1850.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://www.homecentre.in/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.homecentre.in/in/en/Decor/Home-Accessories/Vases/HOMECENTRE-Stellar-Fantasy-N-Celestial-Textured-Tall-Single-Pc-Vase--Stoneware--Gold/p/1000008417741'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary"  href='https://theindiacrafthouse.com/' target="_blank">Visit website <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://theindiacrafthouse.com/collections/wall-table-lamps/products/handcrafted-jaaliwork-wooden-lamp-medium-jml01b' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal6} className='cardImg' />
+                                    <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRGozauqH58smdSR6xEFQ9tkBYApHjL3H8fwFJj7ofZb712cPSxNnlwMl5dRG4WhsrZRTwXECRBBdUo0GvUqeG4TVMpoB1xdnjnw00orlQ&usqp=CAE" className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">Peacock Green Hand Painted Brass Masaldan
-                                        </Card.Title>
+                                        <Card.Title className="title text-center  card-title">Decorative Hanging Lamp</Card.Title>
                                         <Card.Text id='cardText'>
                                             <span id='price1'>Rs 3430.00</span> <h5 id='price2'>Rs. 2990.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.jaypore.com/peacock-green-and-gold-hand-painted-brass-utsav-masaldan-h-175-in-dia-65in-p671829'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary" href='https://www.igp.com/' target="_blank">Visit Website  <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.igp.com/p-decorative-hanging-lamp-5568?currency=inr&utm_source=google&utm_medium=cpc&utm_campaign=1641245207&adgroupid=62181731425&device=c&keyword=&loc_interest_ms=&loc_physical_ms=9303169&feeditemid=&adposition=&gclid=CjwKCAjwoNuGBhA8EiwAFxomAwu0zU-1rQO7x0PM7VXUq2nYCMBk1s8QzlOADox5sqZie1uT9qz2tRoCLnwQAvD_BwE' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal14} className='cardImg' />
+                                    <Card.Img variant="top" src={lamp7} className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">Brass Urli (L- 8in, W- 9in, H- 9.5in) - Handmade</Card.Title>
+                                        <Card.Title className="title text-center  card-title">MODERN FLOOR LAMP</Card.Title>
                                         <Card.Text id='cardText'>
                                             <span id='price1'>Rs 2300.00</span> <h5 id='price2'>Rs. 2000.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://www.jaypore.com/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.jaypore.com/brass-urli-l-8in-w-9in-h-95in-p585573'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary" href='https://kraftinn.com/' target="_blank">Visit Website  <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://kraftinn.com/products/modern-floor-lamp?variant=39442665242812&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col md={3} xs={6} className='cardCol'>
                                 <Card className="focus mt-2 mb-2" id='sec'>
-                                    <Card.Img variant="top" src={metal12} className='cardImg' />
+                                    <Card.Img variant="top" src={lamp4} className='cardImg' />
                                     <Card.Body className='cardBody'>
-                                        <Card.Title className="title text-center  card-title">DOKRA ART FROM ODISHA - DANCING WOMEN PAIR
-                                        </Card.Title>
+                                        <Card.Title className="title text-center  card-title">Edison Filament Copper Finish Diamond Cage Pendant Light, Ceiling Hanging Lamp</Card.Title>
                                         <Card.Text id='cardText'>
                                             <span id='price1'>Rs 2300.00</span> <h5 id='price2'>Rs. 2000.00</h5>
                                         </Card.Text>
-                                        <Button id='button1' variant="outline-secondary"><a id='buy1' href='https://www.artisansoul.in/'>Visit Website </a><LanguageIcon id='ic' /></Button>
-                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.artisansoul.in/products/authentic-dokra-art-from-odisha-dancing-women'>Buy Now</a></Button>
+                                        <Button id='button1' variant="outline-secondary" href='https://www.ecraftindia.com/' target="_blank">Visit Website  <LanguageIcon /></Button>
+                                        <Button id='button2' variant="danger"><a id='buy' href='https://www.ecraftindia.com/products/ilamp_cl03-ecraftindia-edison-filament-copper-finish-diamond-cage-pendant-light-ceiling-hanging-lamp-for-home-living-room-offices-restaurants' target="_blank">Buy Now</a></Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
