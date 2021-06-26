@@ -1,27 +1,14 @@
-#drop{
-
-    color: black;
-    font-size: 22px;
-    float: right;
-    background-color: #D5DBB3;
-    border-radius: 25px;
-    width: 10%;
-    position: relative;
-    bottom: 90px;
-    margin-right: 30px;
-}
-
 #category{
 
-        letter-spacing: 2px;
+        letter-spacing: 0.125rem;
         font-weight: 600;
-        font-size: 40px;
-        text-shadow: 2px 2px gray;
+        font-size: 2.5rem;
+        text-shadow: 0.125rem 0.125rem gray;
         
         margin: auto;
-        margin-left: 30px;
-        padding-top: 60px;
-        padding-bottom: 40px;
+        margin-left: 1.875rem;
+        padding-top: 3.75rem;
+        padding-bottom: 2.5rem;
         color: #222831;
 }
 
@@ -44,6 +31,29 @@
 
 #cardRow{
 
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 1.875rem;
+    padding-bottom: 3.75rem;
 }
+
+@media only screen and (max-width: 768px) {
+
+    #category{
+
+        letter-spacing: 0.120rem;
+        font-weight: 600;
+        font-size: 2.2rem;
+        text-shadow: 0.125rem 0.125rem gray;
+        
+        margin: auto;
+        margin-left: 1.875rem;
+        padding-top: 3.75rem;
+        padding-bottom: 2.2rem;
+        color: #222831;
+}
+
+#ic{
+
+    font-size: 20px;
+}
+
+  }

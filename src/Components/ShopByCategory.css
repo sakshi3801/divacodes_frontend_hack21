@@ -1,22 +1,22 @@
 #cat{
 
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     font-weight: 600;
-    font-size: 40px;
-    text-shadow: 2px 2px gray;
+    font-size: 2.5rem;
+    text-shadow: 0.125rem 0.125rem gray;
     align-items: center;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 3.75rem;
+    padding-bottom: 2.5rem;
     color: #222831;
   }
 
 #card{
 
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 30px;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    border-radius: 1.875rem;
     
 }
 
@@ -37,10 +37,29 @@
   #section:hover{
   
     cursor: pointer;
-    -webkit-box-shadow: -1px 9px 40px -12px gray;
+    -webkit-box-shadow: -0.0625rem 0.5625rem 2.5rem -0.75rem gray;
   }
   
   #routerLink{
 
     text-decoration: none;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+
+    #cat{
+
+      letter-spacing: 0.125rem;
+      font-weight: 600;
+      font-size: 1.8rem;
+      text-shadow: 0.125rem 0.125rem gray;
+      align-items: center;
+      margin: auto;
+      text-align: center;
+      padding-top: 3.75rem;
+      padding-bottom: 2.5rem;
+      color: #222831;
+    }
+
   }
