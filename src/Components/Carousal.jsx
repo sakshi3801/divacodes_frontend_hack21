@@ -10,34 +10,63 @@ const Carousal = ()=>{
     return(
         <>
         <Carousel id='carousal'>
-
+                
 <Carousel.Item>
-    <img
-      className="d-block w-100" id='im'
-      src={carousal1}
-      alt="Third slide"
-    />
+            
+            
+            <div>
+              <img className="d-block w-100" id='im' src={carousal1} alt="First slide"/>
+              <div style={{ color: "#ffffff" }} class="text-block">
+                  <h1>Welcome to Craft Moon</h1>
+                  <p>A selected collection of hancrafted home/office decor</p>
+                  
+                </div>
+             </div>
+              
+     
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100" id='im'
-      src={carousal2}
-      alt="Third slide"
-    />
+   
+            <div >
+              <img
+                className="d-block w-100" id='im'
+                src={carousal2}
+                alt="Third slide"
+              />
+              <div style={{ color: "#000000" }} class="text-block color: rgb(26, 25, 25);">
+                <h1>Welcome to Craft Moon</h1>
+                <p>A selected collection of hancrafted home/office decor</p>
+              </div>
+            </div>
+    
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100" id='im'
-      src={carousal3}
-      alt="Second slide"
-    />
+    
+            <div >
+              <img
+                className="d-block w-100" id='im'
+                src={carousal3}
+                alt="Second slide"
+              />
+              <div style={{ color: "#000000" }} class="text-block color: rgb(26, 25, 25);">
+                <h1>Welcome to Craft Moon</h1>
+                <p>A selected collection of hancrafted home/office decor</p>
+              </div>
+            </div>
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100" id='im'
-      src={carousal4}
-      alt="Third slide"
-    />
+   
+            <div >
+              <img
+                className="d-block w-100" id='im'
+                src={carousal4}
+                alt="Third slide"
+              />
+              <div style={{color:"#ffffff"}}class="text-block ">
+                <h1>Welcome to Craft Moon</h1>
+                <p>A selected collection of hancrafted home/office decor</p>
+              </div>
+            </div>
   </Carousel.Item>
 
 </Carousel>
