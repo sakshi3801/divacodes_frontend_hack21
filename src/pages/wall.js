@@ -9,7 +9,7 @@ function Wall() {
     return (
         <div>
             <div>
-                <h1 className="text-2xl text-center">Wall-The strong frameworks</h1>
+                <h1 className="text-2xl text-center p-3">Wall-The strong frameworks</h1>
             </div>
             <div>
                 <CardDeck id='cardDeck'>

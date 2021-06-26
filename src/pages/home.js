@@ -9,8 +9,8 @@ import NavbarComp from '../Components/NavbarComp'
 import { Route } from 'react-router-dom'
 import clay from './clay'
 import lamps from './lamps'
-import metal from './metal'
-import wall from './wall'
+import metal from './Metal'
+import wall from './Wall'
 
 function Home() {
     return (

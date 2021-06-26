@@ -7,13 +7,13 @@ import Button from 'react-bootstrap/Button'
 import NavbarComp from '../Components/NavbarComp'
 import Footer from '../Components/Footer'
 
-function Clay(){
-    return(
-       <div>
-           <div>
-           <NavbarComp />
-               <h1 className="text-2xl text-center p-3">Clay-Close to Mother Earth</h1>
-           </div>
+function Clay() {
+    return (
+        <div>
+            <div>
+                <NavbarComp />
+                <h1 className="text-2xl text-center p-3">Clay-Close to Mother Earth</h1>
+            </div>
             <div>
                 <CardDeck id='cardDeck'>
                     <Row id='cardRow' >
@@ -184,8 +184,8 @@ function Clay(){
             </div>
 
             <Footer />
-       </div>
-        
+        </div>
+
 
     )
 }
