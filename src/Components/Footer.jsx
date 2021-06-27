@@ -30,7 +30,7 @@ const Footer = ()=>{
                 <LocationOnIcon id='icons' />
  Duplex No. 123, Sakar Hill View Colony, Shakti Nagar, <br />   Jabalpur, Madhya Pradesh - 482001<br /><br />
  <MailOutlineIcon id='icons'/>
-<a href="mailto:craftmoonhandicrafts@gmail.com" target="_blank" rel="noopener noreferrer" id='mail'>  craftmoon@gmail.com</a>
+<a href="mailto:craftmoonhandicrafts@gmail.com" target="_blank" rel="noopener noreferrer" id='mail'>  craftmoonhandicrafts@gmail.com</a>
 <br /><br />
 <CallIcon id='icons'/> +91-7987617236
 <br /><br />
