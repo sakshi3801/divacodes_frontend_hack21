@@ -15,6 +15,7 @@ import customerService from './customerService'
 import register from './register.js';
 import login from './login.js';
 import joinUs from './joinUs';
+
 function Home(){
     return(
             <>
@@ -32,12 +33,6 @@ function Home(){
             <Route path='/register' exact component={register} />
             <Route path='/login' exact component={login} />
             <Route path='/joinus' exact component={joinUs} />
-            {/* <NavbarComp />
-            <Carousal />
-            <ShopByCategory />
-            <BestSellers />
-            <NewArrivals />
-            <Footer /> */}
             </>
     );
 }

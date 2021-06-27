@@ -21,8 +21,6 @@ const NavbarComp = ()=>{
         </div>
     </div>
     <Nav className="ml-auto" id='middle'>
-    
-    
     <Link id='routerLink' to='/Customer'><Nav.Link id='navItem' href="#features">Customer service</Nav.Link></Link>
     <Link id='routerLink' to='/login'><Nav.Link id='navItem' href="#pricing">Login</Nav.Link></Link>
     <Link id='routerLink' to='/register'><Nav.Link id='navItem' href="#deets">Register</Nav.Link></Link>

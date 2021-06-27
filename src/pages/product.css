@@ -60,6 +60,12 @@
     margin-bottom: 180px;
 }
 
+#support{
+
+    margin-bottom: 350px;
+    margin-left: 20px;
+}
+
 @media only screen and (max-width: 768px) {
 
     #category{
