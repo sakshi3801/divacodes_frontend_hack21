@@ -12,26 +12,19 @@ const Carousal = ()=>{
         <Carousel id='carousal'>
                 
 <Carousel.Item>
-            
-            
-            <div>
-              <img className="d-block w-100" id='im' src={carousal1} alt="First slide"/>
-             
-             </div>
-              
-     
+    <img
+      className="d-block w-100" id='im'
+      src={carousal1}
+      alt="First slide"
+    />
   </Carousel.Item>
   <Carousel.Item>
-   
-            <div >
-              <img
-                className="d-block w-100" id='im'
-                src={carousal2}
-                alt="Third slide"
-              />
-             
-            </div>
-    
+    <img
+      className="d-block w-100" id='im'
+      src={carousal2}
+      alt="Third slide"
+    />
+
   </Carousel.Item>
   <Carousel.Item>
     

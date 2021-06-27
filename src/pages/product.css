@@ -35,6 +35,37 @@
     padding-bottom: 3.75rem;
 }
 
+#button1:hover{
+
+    color: white;
+}
+
+#reg{
+
+    position: relative;
+    top: 50px;
+    margin-bottom: 70px;
+}
+
+#reg1{
+
+    text-align: center;
+    align-items: center;
+}
+
+#reg2{
+
+    position: relative;
+    top: 50px;
+    margin-bottom: 180px;
+}
+
+#support{
+
+    margin-bottom: 350px;
+    margin-left: 20px;
+}
+
 @media only screen and (max-width: 768px) {
 
     #category{

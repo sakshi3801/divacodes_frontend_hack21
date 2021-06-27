@@ -4,6 +4,18 @@
     
   }
 
+  /* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom:25em;
+  right: 35em;
+  font-family: 'Dancing Script', cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-shadow: 2px;
+  font-weight: bold;
+}
+
   @media only screen and (max-width: 600px) {
     #im{
 

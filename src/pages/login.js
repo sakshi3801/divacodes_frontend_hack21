@@ -1,13 +1,15 @@
 import React from 'react';
+import Footer from '../Components/Footer';
+import NavbarComp from '../Components/NavbarComp';
 
 function login() {
     return (
-        <div style={{ width: "100em", height: "100em", backgroundImage: "linear-gradient(yellow,white)" }}>
-            <nav class="navbar ">
+        <div style={{ height: "30em", backgroundImage: "linear-gradient(white, hsl(59, 79%, 62%), white);" }}>
+                <NavbarComp />
                 <div className="row col-12 d-flex justify-content-center text-center  ">
-                    <span className="h3">Login</span>
+                    <h3 id='reg1'>Login</h3>
 
-                    <div  className="card col-12 col-lg-4 login-card mt-2 hv-center">
+                    <div  className="card col-12 col-lg-4 login-card mt-2 hv-center" id='reg2'>
                         <form>
                             <div className="form-group text-left p-3">
                                 <label htmlFor="exampleInputEmail1">Email address</label>
@@ -39,7 +41,7 @@ function login() {
                         </form>
                     </div>
                 </div>
-            </nav>
+                <Footer />
         </div>
 
     )
