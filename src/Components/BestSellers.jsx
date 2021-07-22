@@ -20,7 +20,7 @@ const BestSellers = () => {
 <div id='card'>
         <CardDeck id='cardDeck'>
         <Row id='cardRow' >
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
             <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={best1} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -35,7 +35,7 @@ const BestSellers = () => {
             </Card.Body>
             </Card>
         </Col>
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={best2} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -48,7 +48,7 @@ const BestSellers = () => {
             </Card.Body>
             </Card>
         </Col>
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={best3} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -62,7 +62,7 @@ const BestSellers = () => {
             </Card>
         </Col>
 
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={best4} className='cardImg' />
             <Card.Body className='cardBody'>

@@ -19,7 +19,7 @@ const ShopByCategory = () => {
 <div id='card'>
         <CardDeck id='cardDeck'>
         <Row id='cardRow' >
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
         <Link id='routerLink' to='/Wall'><Card className="focus mt-2 mb-2" id='section'>
             <Card.Img variant="top" src={wall} className='cardImg' />
             
@@ -33,7 +33,7 @@ const ShopByCategory = () => {
             </Card>
             </Link>
         </Col>
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
         <Link id='routerLink' to='/Lamps'><Card className="focus mt-2 mb-2" id='section'>
         <Card.Img variant="top" src={lamp} className='cardImg' />
         <Card.Body className='cardBody'>
@@ -46,7 +46,7 @@ const ShopByCategory = () => {
             </Card>
             </Link>
         </Col>
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
         <Link id='routerLink' to='/Clay'><Card className="focus mt-2 mb-2" id='section'>
         <Card.Img variant="top" src={metal} className='cardImg' />
             <Card.Body className='cardBody'>
@@ -59,7 +59,7 @@ const ShopByCategory = () => {
             </Card>
             </Link>
         </Col>
-        <Col md={3} xs={6} className='cardCol'>
+        <Col md={3} xs={12} className='cardCol'>
         <Link id='routerLink' to='/Clay'><Card className="focus mt-2 mb-2" id='section'>
         <Card.Img variant="top" src={clay} className='cardImg' />
             <Card.Body className='cardBody'>
