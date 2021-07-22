@@ -31,7 +31,7 @@ function Lamps() {
            <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={lamp1} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Antique Copper Iron Lantern With Handle In Green Patina Finish</Card.Title>
+               <Card.Title className="title text-center  card-title">Antique Copper Iron Lantern With Handle In Green Patina</Card.Title>
                <Card.Text id='cardText'>
      <span id='price1'>Rs 1720.00</span> <h5 id = 'price2'>Rs. 1425.00</h5>
    </Card.Text>
@@ -44,7 +44,7 @@ function Lamps() {
        <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={lamp2} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Crystal Sliver Table Lamps for Living Room, Crystal Shade Metal Base</Card.Title>
+               <Card.Title className="title text-center  card-title">Crystal Sliver Table Lamps, Crystal Shade Metal Base</Card.Title>
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2799.00</span> <h5 id = 'price2'>Rs. 1399.00</h5>
    </Card.Text>

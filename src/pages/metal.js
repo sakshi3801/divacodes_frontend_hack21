@@ -32,7 +32,7 @@ function Metal() {
            <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={metal1} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">White And Gold Aluminium Decorative Glass Jar With Peacock Knob Lid</Card.Title>
+               <Card.Title className="title text-center  card-title">White And Gold Aluminium Decorative Glass Jar</Card.Title>
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1850.00</h5>
    </Card.Text>

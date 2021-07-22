@@ -61,7 +61,7 @@ function Wall() {
        <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={wall3} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">GANESH DEEPAK WITH BELL BRASS WALL HANGING AND ARTIFACT
+               <Card.Title className="title text-center  card-title">GANESH DEEPAK WITH BELL BRASS WALL HANGING
 </Card.Title>
                <Card.Text id='cardText'>
      <span id='price1'>Rs 1623.00</span> <h5 id = 'price2'>Rs. 1349.00</h5>
@@ -107,7 +107,7 @@ function Wall() {
        <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={wall6} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Set of 3 Floral and Botanical Satin Matt Textured UV Art Painting
+               <Card.Title className="title text-center  card-title">Set of 3 Floral Satin Matt Textured UV Art Painting
 </Card.Title>
                <Card.Text id='cardText'>
      <span id='price1'>Rs 3430.00</span> <h5 id = 'price2'>Rs. 2990.00</h5>

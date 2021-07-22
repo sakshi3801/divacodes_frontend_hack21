@@ -13,9 +13,29 @@
   
   #middle{
   
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    text-align:right;
+  }
+
+  #a{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+  }
+  #left{
+    /* display: inline-block; */
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+
+}
+  #right{
+
+    position: absolute;
+    right: 3.125rem;
   }
   
   
@@ -47,6 +67,7 @@
   #brandF{
   
     color: #FFE227;
+    margin-left: 20px;
   }
   
   #brandL{
@@ -131,6 +152,15 @@
   
       color: #D5DBB3;
       font-size: 22px;
+    }
+
+    #right{
+
+      position: relative;
+      top: 30px;
+      text-align: center;
+      align-items: center;
+      right: 140px;
     }
 
   }

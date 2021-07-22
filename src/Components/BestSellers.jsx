@@ -39,7 +39,7 @@ const BestSellers = () => {
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={best2} className='cardImg' />
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Lord Ganesha on Rocking Chair </Card.Title>
+                <Card.Title className="title text-center  card-title">Lord Ganesha on Rocking Chair showpiece </Card.Title>
                 <Card.Text id='cardText'>
       <span id='price1'>Rs 1499.00</span> <h5 id = 'price2'>Rs. 699.00</h5>
     </Card.Text>

@@ -32,7 +32,7 @@ function Clay() {
            <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src={clay7} className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Elae Cup And Saucer (Set Of 4)
+               <Card.Title className="title text-center  card-title">Elae Cup And Saucer  (Set Of 4 cup and saucer)
 </Card.Title>
                <Card.Text id='cardText'>
      <span id='price1'>Rs 2000.00</span> <h5 id = 'price2'>Rs. 1840.00</h5>
@@ -92,7 +92,7 @@ function Clay() {
            <Card className="focus mt-2 mb-2" id='sec'>
            <Card.Img variant="top" src='https://vincraft.in/wp-content/uploads/2019/06/VC854.jpg.webp' className='cardImg' />
            <Card.Body className='cardBody'>
-               <Card.Title className="title text-center  card-title">Handicraft Indian Cow Incense</Card.Title>
+               <Card.Title className="title text-center  card-title">Clay Handicraft Indian Cow Incense</Card.Title>
                <Card.Text id='cardText'>
      <span id='price1'>Rs 1555.00</span> <h5 id = 'price2'>Rs. 1349.00</h5>
    </Card.Text>

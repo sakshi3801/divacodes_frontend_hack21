@@ -63,3 +63,20 @@
     }
 
   }
+
+#but{
+
+  align-items: center;
+  text-align: center;
+}
+
+#wallButton{
+
+ width: 100%;
+}
+
+#routerLink{
+
+  text-decoration: none;
+  color: #000;
+}

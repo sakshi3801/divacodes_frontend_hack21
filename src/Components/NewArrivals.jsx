@@ -35,7 +35,7 @@ const NewArrivals = () => {
         <Card className="focus mt-2 mb-2" id='sec'>
             <Card.Img variant="top" src={new2} className='cardImg' />
             <Card.Body className='cardBody'>
-                <Card.Title className="title text-center  card-title">Set of 3 Loving Couple in Rain Satin Matt Texture UV Art Painting
+                <Card.Title className="title text-center  card-title">Set of 3 Couple in Rain Satin Matt Texture UV Art Painting
 </Card.Title>
                 <Card.Text id='cardText'>
       <span id='price1'>Rs 1099.00</span> <h5 id = 'price2'>Rs. 495.00</h5>
